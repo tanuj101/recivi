@@ -40,6 +40,14 @@
         },
         "url": "https://www.linkedin.com/in/tanuj101",
         "username": "tanuj101"
+      },
+      {
+        "site": {
+          "id": "bluesky",
+          "name": "Bluesky"
+        },
+        "url": "https://bsky.app/profile/tanujtn.bsky.social",
+        "username": "tanujtn"
       }
     ],
     "skills": [
@@ -299,39 +307,23 @@
         "state": "England",
         "countryCode": "GB"
       },
-      "summary": "The folks behind <a href=\"https://www.kwalee.com/fun-games/draw-it/\">Draw it</a>, <a href=\"https://www.kwalee.com/fun-games/teacher-simulator\">Teacher Simulator</a>, <a href=\"https://www.kwalee.com/fun-games/airport-security\">Airport Security</a>, <a href=\"https://www.kwalee.com/fun-games/bake-it/\">Bake it</a> and many more..",
+      "summary": "The company behind <a href=\"https://www.kwalee.com/fun-games/draw-it/\">Draw it</a>, <a href=\"https://www.kwalee.com/fun-games/teacher-simulator\">Teacher Simulator</a>, <a href=\"https://www.kwalee.com/fun-games/airport-security\">Airport Security</a>, <a href=\"https://www.kwalee.com/fun-games/bake-it/\">Bake it</a> and many more fun games.",
       "description": "Kwalee is the company behind <a target='_blank' href=\"https://www.kwalee.com/fun-games/draw-it/\">Draw it</a>, <a target='_blank' href=\"https://www.kwalee.com/fun-games/teacher-simulator\">Teacher Simulator</a>, <a target='_blank' href=\"https://www.kwalee.com/fun-games/airport-security\">Airport Security</a>, <a target='_blank' href=\"https://www.kwalee.com/fun-games/bake-it/\">Bake it</a> and many more cool games. They believe in making the most fun games for the world.",
       "roles": [
         {
           "id": "fe-dev-almada",
           "name": "Frontend Developer II",
           "highlights": [
-            "Led development of Kwalee's Ad Mediation Platform",
-            "Integrated AWS Cognito for Google SSO for smooth user onboarding",
-            "Optimised form validations in many forms"
+            "Planned and executed UI/UX revamp from MVP stage to a presentable product for UA.",
+            "Integrated authentication flow and <a href='https://www.okta.com/identity-101/what-is-role-based-access-control-rbac/' target='_blank'>RBAC</a> end to end across Almada.",
+            "Worked on various features to make the Almada B2B ready"
           ],
           "period": {
             "start": [2024, 6]
           },
           "type": "full-time",
           "location": "remote",
-          "epicIds": ["almada"],
-          "tags": ["resume_pdf"]
-        },
-        {
-          "id": "fe-dev-design-system",
-          "name": "Frontend Developer II",
-          "period": {
-            "start": [2024, 5]
-          },
-          "type": "full-time",
-          "location": "remote",
-          "epicIds": ["kwalee-design-system"],
-          "highlights": [
-            "Led development of Kwalee's Ad Mediation Platform",
-            "Integrated AWS Cognito for Google SSO for smooth user onboarding",
-            "Optimised form validations in many forms"
-          ],
+          "epicIds": ["almada", "kwalee-design-system"],
           "tags": ["resume_pdf"]
         },
         {
@@ -345,9 +337,9 @@
           "location": "remote",
           "epicIds": ["casual-games-tools"],
           "highlights": [
-            "Led development of Kwalee's Ad Mediation Platform",
-            "Integrated AWS Cognito for Google SSO for smooth user onboarding",
-            "Optimised form validations in many forms"
+            "Worked on multiple features to support admin dashboard for <a target='_blank' href='https://play.google.com/store/apps/details?id=com.kwalee.dreambuildsolitaire'>Dream Build Solitaire</a> and other games.",
+            "Optimized code structure to make the admin dashboard support multiple games.",
+            "Implemented <a target='_blank' href='https://www.okta.com/blog/2020/09/attribute-based-access-control-abac/'>ABAC</a> across the apps to support access control across teams/environments."
           ],
           "tags": ["resume_pdf"]
         }
@@ -366,8 +358,8 @@
         "state": "HR",
         "countryCode": "IN"
       },
-      "summary": "JTG leverages Cutting-Edge Technology to Make Organisations Future-Ready.",
-      "description": "JTG has been providing advanced and customized technological solutions for its clients for over a decade with a focus on overcoming business challenges, empowering companies, and unlocking new opportunities for business growth and increased revenue. With a rapidly growing client base across countries like the United States, Ukraine, Russia, Costa Rica, China, Bangladesh and Brazil (to name a few)",
+      "summary": "JTG provides advanced and customized technological solutions for its clients to overcome business challenges.",
+      "description": "JTG provides advanced and customized technological solutions to companies with a focus on overcoming business challenges.",
       "roles": [
         {
           "id": "sfd-1",
@@ -379,11 +371,29 @@
           "type": "full-time",
           "location": "onsite",
           "highlights": [
-            "Led multiple teams for medium to high complexity features in React, Firebase, GCP architecture for a car parking system.",
-            "Designed & reviewed technical implementation plans.",
-            "Onboarded & Mentored new interns, conducted interviews."
+            "Led multiple cross-functional teams for medium to high complexity features in React, Firebase, Python, GCP architecture for Nexus Platform.",
+            "Designed, reviewed & implemented technical implementation design and plans for features like Azure AD SSO, integrating payment gateways etc.",
+            "Onboarded & mentored new developers, conducted interviews."
           ],
-          "epicIds": ["groupnexus"],
+          "epicIds": ["nexusplatform"],
+          "tags": ["resume_pdf"]
+        },
+        {
+          "id": "fd",
+          "name": "Frontend Developer",
+          "period": {
+            "start": [2021, 8],
+            "end": [2022, 9]
+          },
+          "type": "full-time",
+          "location": "hybrid",
+          "highlights": [
+            "Implemented various features to support business digitalization",
+            "Supported the device management team to implement a multi-step form ",
+            "Facilitated multi-timezone support for UI timestamps across the platform for accurate datetime.",
+            "Designed interview problems for campus/off-campus recruitment drives."
+          ],
+          "epicIds": ["nexusplatform"],
           "tags": ["resume_pdf"]
         },
         {
@@ -391,17 +401,17 @@
           "name": "Frontend Developer",
           "period": {
             "start": [2021, 1],
-            "end": [2022, 9]
+            "end": [2021, 7]
           },
           "type": "full-time",
           "location": "remote",
+          "summary": "",
+          "description": "",
           "highlights": [
-            "Developed several modules for <a href=\"https://pod.ai/\">pod.ai</a> mobile app based on ionic, angularjs.",
-            "Added new features for GroupNexus's carpark system.",
-            "Onboarded & mentored new open-source contributors."
+            "Developed several modules for <a href=\"https://pod.ai/\">pod.ai</a> mobile app based on ionic, angularjs for students along with a react/redux based web app.",
+            "Designed interview problems for campus/off-campus recruitment drives."
           ],
-          "epicIds": ["calyxpod"],
-          "tags": ["resume_pdf"]
+          "epicIds": ["calyxpod"]
         }
       ]
     },
@@ -418,12 +428,12 @@
         "state": "KA",
         "countryCode": "IN"
       },
-      "summary": "NextGen Consumer Electronics Ecosystem for Smart Homes",
-      "description": "InstantPost is building the next-generation consumer electronics ecosystem for enabling the connected smart home and small business infrastructure. They are launching smart power banks, switchboards, wifi router, and private cloud.",
+      "summary": "InstantPost builds the next-generation consumer electronics.",
+      "description": "InstantPost builds the next-generation consumer electronics ecosystem for smart home and small business infrastructure. Now my tenure at InstantPost would seem unusually long, this was because I was still attending my college studies at that time and could not dedicate as a full time contributor. With that said I got a great opportunity to work on number of projects. Click at the Epic below to know my work there.",
       "roles": [
         {
           "id": "sde",
-          "name": "Software Engineering Intern",
+          "name": "Software Engineer",
           "period": {
             "start": [2018, 8],
             "end": [2021, 1]
@@ -431,11 +441,9 @@
           "type": "part-time",
           "location": "remote",
           "highlights": [
-            "Wrote the IaC for the entire production architecture.",
-            "Created tooling to deploy the IaC in an alternate AWS AZ.",
-            "Developed scripts to launch and terminate EC2 instances.",
-            "Isolated staging env from production in a separate VPC.",
-            "Enabled one‑click provisioning of staging environments."
+            "Wrote frontend SDK for paper printing infrastructure.",
+            "Developed and integrated InstantPost's authorization server with several microservices.",
+            "Maintained and supported features for multiple microservices in Python and Flask."
           ],
           "epicIds": ["printing-platform"],
           "tags": ["resume_pdf"]
@@ -451,14 +459,19 @@
         "dest": "https://alm-live.kwalee.com/",
         "label": "Almada homepage"
       },
-      "summary": "An ad mediation platform for game studios, ad networks.",
-      "description": "Parse.ly is a content analytics platform that helps digital publishers understand their audience and content performance.",
+      "summary": "An ad mediation platform for game developers.",
+      "description": "Almada is an <a target='_blank' href='https://www.is.com/glossary/ad-mediation/'>Ad Mediation</a> platform for game studios, businesses to optimise and manage ad-networks in one place with just one SDK integration.",
       "projects": [
         {
           "id": "ad-mediation",
           "name": "Ad Mediation Platform",
-          "role": "Creator/Maintainer",
-          "highlights": [],
+          "role": "Maintainer",
+          "highlights": [
+            "Developed and delivered high fidelity UI revamp for the app from a MVP-stage UI, resulting in a new brand image for user acquisitions",
+            "Integrated AWS Cognito for Google SSO with app-level RBAC for authorization.",
+            "Implemented data import/export features in various modules for ease of administration over the platform.",
+            "Optimized performance issues across the app, resulting in better UX and overall app performance."
+          ],
           "technologies": [
             {
               "id": "typescript",
@@ -490,13 +503,18 @@
       "id": "kwalee-design-system",
       "name": "Design System",
       "summary": "Kwalee's internal design system",
-      "description": "Kwalee's internal design system powering many projects from game developer onboarding platform to Kwalee's very own website!",
+      "description": "Kwalee's internal design system powering many projects from game developer onboarding platform to Kwalee's very new main website (not out yet).",
       "projects": [
         {
           "id": "kwalee-design-system",
-          "name": "Kwalee Design System",
+          "name": "KDS Monorepo",
           "role": "Creator",
-          "highlights": [],
+          "highlights": [
+            "Laid the foundations with a monorepo(turborepo) consisting packages like react components, centralized tailwind-config, linter(biome) configs etc.",
+            "Integrated this system in two projects enhancing developer efficiency and reducing designer/developer workload by <b>60-70%</b>.",
+            "Architected dev scripts to propagate local changes over all host apps from local sub-dependencies using <a target='_blank' href='https://www.npmjs.com/package/chokidar'>chokidar</a> and <a target='_blank' href='https://www.npmjs.com/package/concurrently'>concurrently</a>"
+            
+          ],
           "technologies": [
             {
               "id": "typescript",
@@ -524,6 +542,76 @@
             }
           ],
           "tags": ["resume_pdf"]
+        },
+        {
+          "id": "ds-infra",
+          "name": "Infrastructure ",
+          "role": "Maintainer",
+          "highlights": [
+            "Implemented build scripts in Node.js for automatic react component generation for SVGs from hundreds of SVG files.",
+            "Established automated deployment and npm release using AWS Amplify and Bitbucket pipelines"
+          ],
+          "technologies": [
+            {
+              "id": "typescript",
+              "name": "TypeScript"
+            },
+            {
+              "id": "react",
+              "name": "React"
+            },
+            {
+              "id": "storybook",
+              "name": "Storybook"
+            },
+            {
+              "id": "tailwindcss",
+              "name": "Tailwind CSS"
+            },
+            {
+              "id": "awsamplify",
+              "name": "AWS Amplify"
+            },
+            {
+              "id": "turborepo",
+              "name": "Turborepo"
+            }
+          ]
+        },
+        {
+          "id": "ds-docs",
+          "name": "Documentation",
+          "role": "Author",
+          "highlights": [
+            "Documented the technical design and usage guidelines for the design system as well for ease of integration with future applications.",
+            "Developed storybook app for easy component navigation and documentations."
+          ],
+          "technologies": [
+            {
+              "id": "typescript",
+              "name": "TypeScript"
+            },
+            {
+              "id": "react",
+              "name": "React"
+            },
+            {
+              "id": "storybook",
+              "name": "Storybook"
+            },
+            {
+              "id": "tailwindcss",
+              "name": "Tailwind CSS"
+            },
+            {
+              "id": "awsamplify",
+              "name": "AWS Amplify"
+            },
+            {
+              "id": "turborepo",
+              "name": "Turborepo"
+            }
+          ]
         }
       ]
     },
@@ -536,10 +624,12 @@
         {
           "id": "data-migrator",
           "name": "Data Migrator",
+          "summary": "A data management tool to view difference between game entities across environments and migrate them.",
+          "description": "A data management tool to view difference between game entities across environments and to migrate them based on business decisions.",
           "role": "Creator",
           "highlights": [
-            "Implemented a JSON diff viewer with customised algorithm",
-            "Added ability to view the outcome of merging the data objects",
+            "Implemented a JSON diff viewer with customized algorithm for dynamic schema with nested arrays and objects.",
+            "Added the ability to view the outcome of merging the data objects.",
             "Architected <a target='_blank' href='https://www.okta.com/blog/2020/09/attribute-based-access-control-abac/'>attribute based access control</a> across the app with polymorphic re-usable react components"
           ],
           "technologies": [
@@ -558,22 +648,19 @@
             {
               "id": "mui",
               "name": "MUI"
-            },
-            {
-              "id": "awsamplify",
-              "name": "AWS Amplify"
             }
-          ],
-          "tags": ["resume_pdf"]
+          ]
         },
         {
           "id": "casual-admin-core",
-          "name": "Casual Admin Core",
+          "name": "Games Dashboard Core",
           "role": "Creator",
+          "description": "Stripped off casual games admin dashboard's core components into a central library to support multiple games.",
           "highlights": [
-            "Isolated core casual admin dashboard's core services, components.",
+            "Isolated casual games admin dashboard's core pages, services, components using <a href='https://vite.dev/guide/build#library-mode' target='_blank'>Vite's library mode</a>.",
             "Separated elements as building blocks with composition and inheritance patterns.",
-            "Supported multiple games with their game specific parameters with base in the core."
+            "Supported multiple games dashboard with their game specific parameters with this lib as a base for them.",
+            "Documented the technical implementation and its usage guidelines."
           ],
           "technologies": [
             {
@@ -591,17 +678,24 @@
             {
               "id": "npm",
               "name": "NPM"
+            },
+            {
+              "id": "vite",
+              "name": "Vite"
             }
-          ],
-          "tags": ["resume_pdf"]
+          ]
         },
         {
           "id": "casual-admin",
-          "name": "Casual Admin",
+          "name": "Games Admin Dashboard",
           "role": "Maintainer",
+          "description": "This was Kwalee's casual games dashboard, primarily used for <a target='_blank' href='https://play.google.com/store/apps/details?id=com.kwalee.dreambuildsolitaire'>Dream Build Solitaire</a> game.",
           "highlights": [
-            "Optimized data set tables with list virtualisation.",
-            "Integrated drag and drop ability within the above-mentioned virtualised tables for row re-ordering"
+            "Developed a custom Calendar component to view game events' timelines for data-analysis.",
+            "Optimized data set tables with list virtualization.",
+            "Integrated drag and drop ability within the above-mentioned virtualized tables for row re-ordering.",
+            "Worked on a number of features to support addition of generic levels, announcements for the game."
+
           ],
           "technologies": [
             {
@@ -624,25 +718,24 @@
               "id": "awsamplify",
               "name": "AWS Amplify"
             }
-          ],
-          "tags": ["resume_pdf"]
+          ]
         }
       ]
     },
     {
-      "id": "groupnexus",
-      "name": "GroupNexus",
-      "summary": "Internal tools to support Kwalee's portfolio of casual mobile games.",
-      "description": "Internal tools to support Kwalee's portfolio of casual mobile games.",
+      "id": "nexusplatform",
+      "name": "NexusPlatform",
+      "url": "https://nexusplatform.co.uk/",
+      "description": "UK based GroupNexus's car park management system.",
       "projects": [
         {
-          "id": "permit-mgmt",
-          "name": "Permit Management",
-          "role": "Creator",
+          "id": "Platform",
+          "name": "Platform",
+          "role": "Maintainer",
           "highlights": [
-            "Implemented a JSON diff viewer with customised algorithm",
-            "Added ability to view the outcome of merging the data objects",
-            "Architected <a target='_blank' href='https://www.okta.com/blog/2020/09/attribute-based-access-control-abac/'>attribute based access control</a> across the app with polymorphic re-usable react components"
+            "Integrated Stripe's BACS direct debit for ease of payments propelling revenue with good numbers, £500k+ and still climbing",
+            "Architected, planned and led end-to-end Azure AD SSO integration with google cloud platform.",
+            "Implemented scalable multi-timezone support across the app for time critical modules to support new countries in client's portfolio."
           ],
           "technologies": [
             {
@@ -673,41 +766,15 @@
           "tags": ["resume_pdf"]
         },
         {
-          "id": "casual-admin-core",
-          "name": "Casual Admin Core",
-          "role": "Creator",
-          "highlights": [
-            "Isolated core casual admin dashboard's core services, components.",
-            "Separated elements as building blocks with composition and inheritance patterns.",
-            "Supported multiple games with their game specific parameters with base in the core."
-          ],
-          "technologies": [
-            {
-              "id": "typescript",
-              "name": "TypeScript"
-            },
-            {
-              "id": "react",
-              "name": "React"
-            },
-            {
-              "id": "redux",
-              "name": "Redux"
-            },
-            {
-              "id": "npm",
-              "name": "NPM"
-            }
-          ],
-          "tags": ["resume_pdf"]
-        },
-        {
-          "id": "casual-admin",
-          "name": "Casual Admin",
+          "id": "enforcement",
+          "name": "Enforcement Management",
           "role": "Maintainer",
           "highlights": [
-            "Optimized data set tables with list virtualisation.",
-            "Integrated drag and drop ability within the above-mentioned virtualised tables for row re-ordering"
+            "Implemented scalable multi-timezone support across the app for time critical modules to support new countries in client's portfolio.",
+            "Increased test coverage of various modules from ∼50% to 85% with Jest & RTL (React testing library) to further increase the system's robustness.",
+            "Designed and developed a module for asynchronous bulk data processing using Python/Flask with GCP Pub/Sub architecture which reducing administration time required for manual UI updates by 40%.",
+            "Improved code structure of legacy code bases by moving common logic to reusable React components, containers, hooks, and services.",
+            "Added multi-language support in a dynamic multi step form and its template"
           ],
           "technologies": [
             {
@@ -723,65 +790,37 @@
               "name": "Redux"
             },
             {
-              "id": "mui",
-              "name": "MUI"
+              "id": "antdesign",
+              "name": "Ant Design"
             },
             {
-              "id": "awsamplify",
-              "name": "AWS Amplify"
+              "id": "firebase",
+              "name": "Firebase"
+            },
+            {
+              "id": "googlecloud",
+              "name": "Google Cloud"
             }
-          ],
-          "tags": ["resume_pdf"]
+          ]
         }
       ]
     },
     {
       "id": "calyxpod",
       "name": "Calyxpod",
-      "summary": "Internal tools to support Kwalee's portfolio of casual mobile games.",
-      "description": "Internal tools to support Kwalee's portfolio of casual mobile games.",
+      "summary": "An application for end-to-end recruitment management for institutes and companies.",
+      "description": "An application for end-to-end recruitment management for institutes and companies. I mainly worked on the students app.",
       "projects": [
         {
-          "id": "webapp",
-          "name": "Web app",
+          "id": "Platform",
+          "name": "Platform",
+          "url": "https://pod.ai/",
           "role": "Maintainer",
           "highlights": [
-            "Implemented a JSON diff viewer with customised algorithm",
-            "Added ability to view the outcome of merging the data objects",
-            "Architected <a target='_blank' href='https://www.okta.com/blog/2020/09/attribute-based-access-control-abac/'>attribute based access control</a> across the app with polymorphic re-usable react components"
-          ],
-          "technologies": [
-            {
-              "id": "javascript",
-              "name": "JavaScript"
-            },
-            {
-              "id": "react",
-              "name": "React"
-            },
-            {
-              "id": "redux",
-              "name": "Redux"
-            },
-            {
-              "id": "mui",
-              "name": "MUI"
-            },
-            {
-              "id": "sass",
-              "name": "sass"
-            }
-          ],
-          "tags": ["resume_pdf"]
-        },
-        {
-          "id": "mobile-app",
-          "name": "Students mobile app",
-          "role": "Maintainer",
-          "highlights": [
-            "Isolated core casual admin dashboard's core services, components.",
-            "Separated elements as building blocks with composition and inheritance patterns.",
-            "Supported multiple games with their game specific parameters with base in the core."
+            "Worked with stake holders to revamp the app dashboard, post feed, forums, job opportunities, job offers page's UI/UX.",
+            "Prioritized, debugged and fixed bugs in the backlog and made the mobile app overall stable for usage.",
+            "Quickly ramped up on angularjs which was used in this project.",
+            "Worked on its react based web app as well to develop business supporting features"
           ],
           "technologies": [
             {
@@ -795,51 +834,33 @@
             {
               "id": "ionic",
               "name": "Ionic"
+            },
+            {
+              "id": "capacitor",
+              "name": "Capacitor"
+            },
+            {
+              "id": "react",
+              "name": "React"
             }
-          ],
-          "tags": ["resume_pdf"]
+          ]
         }
       ]
     },
     {
       "id": "printing-platform",
-      "name": "Printing Platform",
-      "projects": [
+      "name": "Printing Infra",
+      "description": "At InstantPost I contributed to build two core offline first web applications and supporting backend microservices to leverage its printing kiosk infrastructure for on demand paper printing.",
+      "projects": [   
         {
-          "id": "GIS",
-          "name": "GIS",
-          "description": "Geographic information system is a backend service which stores the geographical locations of printer nodes and provides supporting co-ordinates and OSM APIs",
-          "role": "Maintainer",
-          "highlights": [
-            "this is highlight 1",
-            "this is highlight 2",
-            "this is highlight 3"
-          ],
-          "technologies": [
-            {
-              "id": "python",
-              "name": "Python"
-            },
-            {
-              "id": "flask",
-              "name": "Flask"
-            },
-            {
-              "id": "openstreetmap",
-              "name": "Open Street Map"
-            }
-          ],
-          "tags": ["resume_pdf"]
-        },
-        {
-          "id": "pl",
+          "id": "printing-sdk",
           "name": "Printing SDK",
-          "description": "This is InstantPost core frontend SDK to let frontend apps to use its printing capability",
+          "description": "This is InstantPost core frontend SDK to let frontend apps to use its printing hardware capabilities.",
           "role": "Creator",
           "highlights": [
-            "Used webpack to create a generic re-usable API.",
-            "Integrated Leaflet to show map with custom interactivity,",
-            "Consumed GIS to point nearest printer nodes on map."
+            "Used webpack to create a generic re-usable frontend SDK.",
+            "Integrated Leaflet to show map with interactivity for custom actions.",
+            "Consumed multiple distributed microservices with central auth."
           ],
           "technologies": [
             {
@@ -862,14 +883,43 @@
           "tags": ["resume_pdf"]
         },
         {
+          "id": "GIS",
+          "name": "GIS",
+          "description": "Geographic information system is a backend service which stores the geographical locations of printer nodes and provides supporting co-ordinates and OSM APIs",
+          "role": "Maintainer",
+          "highlights": [
+            "Used messaging queues to asynchronously communicate with other services.",
+            "Refactored distance calculating algorithm and overall codebase to use REST standards with flask RESTful"
+          ],
+          "technologies": [
+            {
+              "id": "python",
+              "name": "Python"
+            },
+            {
+              "id": "flask",
+              "name": "Flask"
+            },
+            {
+              "id": "openstreetmap",
+              "name": "Open Street Map"
+            },
+            {
+              "id": "zeromq",
+              "name": "ZMQ"
+            }
+          ]
+        },
+        {
           "id": "bootstrap",
           "name": "Bootstrap.today",
-          "description": "Bootstrap.today is a platform for creation, signing and management of electronic agreements.",
+          "description": "Bootstrap.today is a platform for creation, signing and management of digital agreements & documents.",
           "role": "Creator",
           "highlights": [
-            "Progressive webapp, offline first",
+            "An offline first application leveraging service workers and background sync.",
             "Created a intuitive interface for creation of document templates and workflows",
-            "Integrated the printing SDK to let users select printing nodes, upload documents and schedule prints."
+            "Integrated the printing SDK to let users select printing nodes, upload documents and schedule prints.",
+            "Created MVC structured backend with express and mongo"
           ],
           "technologies": [
             {
@@ -883,19 +933,21 @@
             {
               "id": "express",
               "name": "Express"
+            },
+            {
+              "id": "mongodb",
+              "name": "MongoDB"
             }
-          ],
-          "tags": ["resume_pdf"]
+          ]
         },
         {
           "id": "snoopy",
           "name": "Snoopy",
-          "description": "Bootstrap.today is a platform for creation, signing and management of electronic agreements.",
-          "role": "Creator",
+          "description": "Snoopy is a chat app where user could talk to each other, share documents and even initiate print workflows with the printing SDK.",
+          "role": "Maintainer",
           "highlights": [
-            "Progressive webapp, offline first",
-            "Created a intuitive interface for creation of document templates and workflows",
-            "Integrated the printing SDK to let users select printing nodes, upload documents and schedule prints."
+            "Worked on optimizing the chat order with storing the timestamp when user actually clicked sent along with server timestamp",
+            "Integrated printing SDK to utilize printing infrastructure within the chat interface"
           ],
           "technologies": [
             {
@@ -906,8 +958,28 @@
               "id": "angular",
               "name": "Angular"
             }
+          ]
+        },
+        {
+          "id": "auth-server",
+          "name": "Auth server",
+          "description": "This was IP's central auth server written in php which works as an identity provider, so that all the users could login with InstantPost credentials across all the apps.",
+          "role": "Maintainer",
+          "highlights": [
+            "Added functionality to blacklist JWT tokens on logouts, duplicate logins etc. for enhanced security.",
+            "Designed and implemented the login/registration pages for the frontend.",
+            "Integrated this with other frontend/backend as well."
           ],
-          "tags": ["resume_pdf"]
+          "technologies": [
+            {
+              "id": "php",
+              "name": "php"
+            },
+            {
+              "id": "cakephp",
+              "name": "cakePHP"
+            }
+          ]
         }
       ]
     }
