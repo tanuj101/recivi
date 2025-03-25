@@ -364,7 +364,7 @@
 				"countryCode": "IN"
 			},
 			"summary": "InstantPost builds the next-generation consumer electronics.",
-			"description": "InstantPost builds the next-generation consumer electronics ecosystem for smart home and small business infrastructure. Now my tenure at InstantPost would seem unusually long, this was because I was still attending my college studies at that time and could not dedicate as a full time contributor. With that said I got a great opportunity to work on number of projects. Click at the Epic below to know my work there.",
+			"description": "InstantPost builds the next-generation consumer electronics ecosystem for smart home and small business infrastructure. I got a great opportunity to work on number of projects in my early days in tech.",
 			"roles": [
 				{
 					"id": "sde",
@@ -435,7 +435,7 @@
 			"id": "kwalee-design-system",
 			"name": "Design System",
 			"summary": "Kwalee's internal UI design system",
-			"description": "Kwalee's internal design system powering many projects from game developer onboarding platform to Kwalee's very new main website (not out yet).",
+			"description": "Kwalee's internal design system powers many projects from game developer onboarding platform to Kwalee's very new main website (not out yet).",
 			"projects": [
 				{
 					"id": "kwalee-design-system",
@@ -549,8 +549,8 @@
 		{
 			"id": "casual-games-tools",
 			"name": "Games Tools",
-			"summary": "Internal tools to support Kwalee's portfolio of casual mobile games.",
-			"description": "Internal tools to support Kwalee's portfolio of casual mobile games.",
+			"summary": "Set of internal tools to support Kwalee's portfolio of casual mobile games.",
+			"description": "Set of Internal tools to support Kwalee's portfolio of casual mobile games.",
 			"projects": [
 				{
 					"id": "data-migrator",
@@ -657,7 +657,7 @@
 			"name": "NexusPlatform",
 			"url": "https://nexusplatform.co.uk/",
 			"summary": "<a target='_blank' href='https://groupnexus.co.uk/'>GroupNexus</a> owned car park management platform supporting over 1,200 parking sites all over UK.",
-			"description": "GroupNexus manages car parks across the UK and Spain. It offers an end-to-end service, from technology that monitors and analyzes parking data, to setting the standard for the provision of management services. .",
+			"description": "GroupNexus owned platform owned car park management platform supporting over 1,200 parking sites all over UK. It offers an end-to-end service, from technology that monitors and analyzes parking data, to setting the standard for the provision of management services. .",
 			"projects": [
 				{
 					"id": "Platform",
