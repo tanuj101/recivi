@@ -861,6 +861,10 @@
               "name": "Mailgun"
             },
             {
+              "id": "mailchimp",
+              "name": "Mailchimp"
+            },
+            {
               "id": "amazonwebservices",
               "name": "AWS"
             }
