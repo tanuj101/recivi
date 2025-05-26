@@ -77,11 +77,6 @@
         "name": "Kotlin",
         "subSkills": [{ "id": "android", "name": "Android" }]
       },
-      {
-        "id": "ruby",
-        "name": "Ruby",
-        "subSkills": [{ "id": "rubyonrails", "name": "Rails" }]
-      },
       { "id": "go", "name": "Golang" },
       { "id": "php", "name": "PHP" },
 
