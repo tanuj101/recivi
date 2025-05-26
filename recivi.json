@@ -96,6 +96,69 @@
         ]
       }
     ],
+    "languages": [
+      {
+        "name": "English",
+        "speak": "native",
+        "listen": "native",
+        "write": "native",
+        "read": "native"
+      },
+      {
+        "name": {
+          "id": "hi",
+          "name": "हिन्दी",
+          "englishName": "Hindi"
+        },
+        "speak": "native",
+        "listen": "native",
+        "write": "native",
+        "read": "native"
+      },
+      {
+        "name": {
+          "id": "kfr",
+          "name": "કચ્છી",
+          "englishName": "Kutchi"
+        },
+        "speak": "native",
+        "listen": "native",
+        "read": "elementary"
+      },
+      {
+        "name": {
+          "id": "gu",
+          "name": "ગુજરાતી",
+          "englishName": "Gujarati"
+        },
+        "speak": "limited_working",
+        "listen": "professional_working",
+        "write": "limited_working",
+        "read": "limited_working"
+      },
+      {
+        "name": {
+          "id": "mr",
+          "name": "मराठी",
+          "englishName": "Marathi"
+        },
+        "speak": "professional_working",
+        "listen": "professional_working",
+        "write": "professional_working",
+        "read": "limited_working"
+      },
+      {
+        "name": {
+          "id": "fr",
+          "name": "Français",
+          "englishName": "French"
+        },
+        "speak": "elementary",
+        "listen": "elementary",
+        "write": "limited_working",
+        "read": "limited_working"
+      }
+    ],
     "residence": {
       "city": "Dubai",
       "countryCode": "AE"
