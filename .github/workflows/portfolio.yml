@@ -1,0 +1,16 @@
+name: Rebuild portfolio
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    name: Trigger rebuild
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger rebuild
+        run: |
+          curl -X POST "${{ secrets.PORTFOLIO_DEPLOY_HOOK }}"
