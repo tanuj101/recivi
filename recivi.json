@@ -1,987 +1,935 @@
 {
-  "$schema": "https://recivi.pages.dev/schemas/recivi-resume.json",
-  "bio": {
-    "name": "Tanuj Nagpal",
-    "fullName": "Tanuj Nagpal",
-    "summary": "Software engineering enthusiast by heart, frontend developer by profession and code story-teller • Haryana, 🇮🇳",
-    "labels": ["Software engineering enthusiast by heart", "frontend developer by profession"],
-    "aliases": ["tanuj"],
-    "contact": {
-      "emails": ["tanujnagpal999@gmail.com"],
-      "phones": [
-        {
-          "countryCode": 91,
-          "number": "9034902763"
-        }
-      ]
-    },
-    "image": "https://www.gravatar.com/avatar/0eab64adad056cff2492e7c407a9aa21?s=256",
-    "profiles": [
-      {
-        "site": {
-          "id": "whatsapp",
-          "name": "WhatsApp"
-        },
-        "url": "https://wa.me/+919034902763",
-        "username": "+91 9034902763"
-      },
-      {
-        "site": {
-          "id": "github",
-          "name": "GitHub"
-        },
-        "url": "https://github.com/tanuj101",
-        "username": "tanuj101"
-      },
-      {
-        "site": {
-          "id": "linkedin",
-          "name": "LinkedIn"
-        },
-        "url": "https://www.linkedin.com/in/tanuj101",
-        "username": "tanuj101"
-      },
-      {
-        "site": {
-          "id": "bluesky",
-          "name": "Bluesky"
-        },
-        "url": "https://bsky.app/profile/tanujtn.bsky.social",
-        "username": "tanujtn"
-      }
-    ],
-    "skills": [
-      {
-        "name": "Forms",
-        "subSkills": [
-          { "id": "reacthookform", "name": "reacthookform" },
-          { "id": "formik", "name": "Formik" }
-        ]
-      },
-      {
-        "name": "Schemas",
-        "subSkills": [
-          "Yup",
-          { "id": "zod", "name": "Zod" }
-        ]
-      },
-      {
-        "name": "Tools",
-        "subSkills": [
-          { "id": "vite", "name": "Vite" },
-          { "id": "eslint", "name": "ESLint" },
-          { "id": "biome", "name": "Biome" }
-        ]
-      },
-      {
-        "name": "Python",
-        "subSkills": [{ "id": "flask", "name": "Flask" }]
-      },
-      {
-        "name": "Testing",
-        "subSkills": [
-          { "id": "pytest", "name": "Pytest" },
-          { "id": "jest", "name": "Jest" }
-        ]
-      },
-      {
-        "name": "Cloud",
-        "subSkills": [
-          { "id": "googlecloud", "name": "Google Cloud" },
-          { "id": "renovate", "name": "Renovate" }
-        ]
-      },
-      {
-        "name": "Database",
-        "subSkills": [
-          { "id": "firebase", "name": "Firebase" },
-          { "id": "postgresql", "name": "PostgreSQL" }
-        ]
-      },
-      {
-        "name": "Web",
-        "subSkills": [
-          { "id": "html5", "name": "HTML" },
-          { "id": "css", "name": "CSS" },
-          { "id": "styledcomponents", "name": "styled" }
-        ]
-      },
-      {
-        "name": "Shell",
-        "subSkills": [
-          { "id": "gnubash", "name": "Bash" },
-          { "id": "zsh", "name": "Zsh" },
-          { "id": "fishshell", "name": "Fish" }
-        ]
-      },
-      {
-        "name": "OS",
-        "subSkills": [
-          { "id": "archlinux", "name": "Arch" },
-          { "id": "kde", "name": "KDE" },
-          { "id": "ubuntu", "name": "Ubuntu" },
-          { "id": "apple", "name": "mac" }
-        ]
-      },
-      {
-        "name": "Misc.",
-        "subSkills": [
-          { "id": "reacttable", "name": "react-table" },
-          { "id": "reactquery", "name": "RTK Query" }
-          
-        ]
-      }
-    ],
-    "languages": [
-      {
-        "name": "English",
-        "speak": "native",
-        "listen": "native",
-        "write": "native",
-        "read": "native"
-      },
-      {
-        "name": {
-          "id": "hi",
-          "name": "हिन्दी",
-          "englishName": "Hindi"
-        },
-        "speak": "native",
-        "listen": "native",
-        "write": "native",
-        "read": "native"
-      },
-      {
-        "name": {
-          "id": "kfr",
-          "name": "કચ્છી",
-          "englishName": "Kutchi"
-        },
-        "speak": "native",
-        "listen": "native",
-        "read": "elementary"
-      },
-      {
-        "name": {
-          "id": "gu",
-          "name": "ગુજરાતી",
-          "englishName": "Gujarati"
-        },
-        "speak": "limited_working",
-        "listen": "professional_working",
-        "write": "limited_working",
-        "read": "limited_working"
-      },
-      {
-        "name": {
-          "id": "mr",
-          "name": "मराठी",
-          "englishName": "Marathi"
-        },
-        "speak": "professional_working",
-        "listen": "professional_working",
-        "write": "professional_working",
-        "read": "limited_working"
-      },
-      {
-        "name": {
-          "id": "fr",
-          "name": "Français",
-          "englishName": "French"
-        },
-        "speak": "elementary",
-        "listen": "elementary",
-        "write": "limited_working",
-        "read": "limited_working"
-      }
-    ],
-    "origin": {
-      "city": "Bhiwani",
-      "state": "HR",
-      "countryCode": "IN"
-    }
-  },
-  "education": [
-    {
-      "id": "jmit",
-      "name": "JMIT",
-      "shortName": "JMIT",
-      "url": {
-        "dest": "https://www.jmit.ac.in/",
-        "label": "JMIT homepage"
-      },
-      "address": {
-        "city": "Yamunanagar",
-        "state": "HR",
-        "countryCode": "IN",
-        "postalCode": 135133
-      },
-      "certs": [
-        {
-          "id": "b_tech",
-          "name": "Bachelor of Technology",
-          "shortName": "B. Tech.",
-          "issue": [2021],
-          "period": {
-            "start": [2017],
-            "end": [2021]
-          },
-          "score": "75.9",
-          "maxScore": "100",
-          "field": "Computer Science",
-          "tags": ["resume_pdf"]
-        }
-      ]
-    },
-    {
-      "id": "a-a",
-      "name": "Adarsh Academy",
-      "shortName": "AVM",
-      "url": {
-        "dest": "https://avmbhiwani.edu.in/",
-        "label": "Adarsh Academy homepage"
-      },
-      "address": {
-        "city": "Bhiwani",
-        "state": "HR",
-        "countryCode": "IN",
-        "postalCode": 127021
-      },
-      "certs": [
-        {
-          "id": "cbse",
-          "name": "Central Board Of Secondary Education",
-          "shortName": "CBSE Class 12",
-          "issue": [2017],
-          "period": {
-            "start": [2016],
-            "end": [2017]
-          },
-          "score": "8.80",
-          "maxScore": "10.000",
-          "field": "Science"
-        }
-      ]
-    },
-    {
-      "id": "bps",
-      "name": "Bhiwani Public School",
-      "shortName": "BPS",
-      "url": {
-        "dest": "https://www.bpsbhiwani.edu.in/",
-        "label": "BPS homepage"
-      },
-      "address": {
-        "city": "Bhiwani",
-        "state": "HR",
-        "countryCode": "IN",
-        "postalCode": 127021
-      },
-      "certs": [
-        {
-          "id": "cbse",
-          "name": "Central Board Of Secondary Education",
-          "shortName": "CBSE Class 10",
-          "issue": [2015],
-          "period": {
-            "start": [2014],
-            "end": [2015]
-          },
-          "score": "8.80",
-          "maxScore": "10.000"
-        }
-      ]
-    }
-  ],
-  "work": [
-    {
-      "id": "kwalee",
-      "name": "Kwalee",
-      "shortName": "kwl",
-      "url": {
-        "dest": "https://www.kwalee.com/",
-        "label": "Kwalee Homepage"
-      },
-      "address": {
-        "city": "Royal Leamington Spa",
-        "state": "England",
-        "countryCode": "GB"
-      },
-      "summary": "The company behind <a href=\"https://www.kwalee.com/fun-games/draw-it/\">Draw it</a>, <a href=\"https://www.kwalee.com/fun-games/teacher-simulator\">Teacher Simulator</a>, <a href=\"https://www.kwalee.com/fun-games/airport-security\">Airport Security</a>, <a href=\"https://www.kwalee.com/fun-games/bake-it/\">Bake it</a> and many more fun games.",
-      "description": "Kwalee is the company behind <a target='_blank' href=\"https://www.kwalee.com/fun-games/draw-it/\">Draw it</a>, <a target='_blank' href=\"https://www.kwalee.com/fun-games/teacher-simulator\">Teacher Simulator</a>, <a target='_blank' href=\"https://www.kwalee.com/fun-games/airport-security\">Airport Security</a>, <a target='_blank' href=\"https://www.kwalee.com/fun-games/bake-it/\">Bake it</a> and many more cool games. They believe in making the most fun games for the world.",
-      "roles": [
-        {
-          "id": "fe-dev-almada",
-          "name": "Frontend Developer II",
-          "highlights": [
-            "Planned and executed UI/UX revamp from MVP stage to a presentable product for UA.",
-            "Integrated authentication flow and <a href='https://www.okta.com/identity-101/what-is-role-based-access-control-rbac/' target='_blank'>RBAC</a> end to end across Almada.",
-            "Worked on various features to make the Almada B2B ready"
-          ],
-          "period": {
-            "start": [2024, 6]
-          },
-          "type": "full-time",
-          "location": "remote",
-          "epicIds": ["almada", "kwalee-design-system"],
-          "tags": ["resume_pdf"]
-        },
-        {
-          "id": "fe-dev-casual-games",
-          "name": "Frontend Developer II",
-          "period": {
-            "start": [2023, 11],
-            "end": [2024, 5]
-          },
-          "type": "full-time",
-          "location": "remote",
-          "epicIds": ["casual-games-tools"],
-          "highlights": [
-            "Worked on multiple features to support admin dashboard for <a target='_blank' href='https://play.google.com/store/apps/details?id=com.kwalee.dreambuildsolitaire'>Dream Build Solitaire</a> and other games.",
-            "Optimized code structure to make the admin dashboard support multiple games.",
-            "Implemented <a target='_blank' href='https://www.okta.com/blog/2020/09/attribute-based-access-control-abac/'>ABAC</a> across the apps to support access control across teams/environments."
-          ],
-          "tags": ["resume_pdf"]
-        }
-      ]
-    },
-    {
-      "id": "jtg",
-      "name": "JTG",
-      "shortName": "JTG",
-      "url": {
-        "dest": "https://www.joshtechnologygroup.com/",
-        "label": "Josh Technology Group homepage"
-      },
-      "address": {
-        "city": "Gurugram",
-        "state": "HR",
-        "countryCode": "IN"
-      },
-      "summary": "JTG provides advanced and customized technological solutions for its clients to overcome business challenges.",
-      "description": "JTG provides advanced and customized technological solutions to companies with a focus on overcoming business challenges.",
-      "roles": [
-        {
-          "id": "sfd-1",
-          "name": "Senior Frontend Developer",
-          "period": {
-            "start": [2022, 10],
-            "end": [2023, 10]
-          },
-          "type": "full-time",
-          "location": "onsite",
-          "highlights": [
-            "Led multiple cross-functional teams for medium to high complexity features in React, Firebase, Python, GCP architecture for Nexus Platform.",
-            "Designed, reviewed & implemented technical implementation design and plans for features like Azure AD SSO, integrating payment gateways etc.",
-            "Onboarded & mentored new developers, conducted interviews."
-          ],
-          "epicIds": ["nexusplatform"],
-          "tags": ["resume_pdf"]
-        },
-        {
-          "id": "fd",
-          "name": "Frontend Developer",
-          "period": {
-            "start": [2021, 8],
-            "end": [2022, 9]
-          },
-          "type": "full-time",
-          "location": "hybrid",
-          "highlights": [
-            "Implemented various features to support business digitalization",
-            "Supported the device management team to implement a multi-step form ",
-            "Facilitated multi-timezone support for UI timestamps across the platform for accurate datetime.",
-            "Designed interview problems for campus/off-campus recruitment drives."
-          ],
-          "epicIds": ["nexusplatform"],
-          "tags": ["resume_pdf"]
-        },
-        {
-          "id": "fd",
-          "name": "Frontend Developer",
-          "period": {
-            "start": [2021, 1],
-            "end": [2021, 7]
-          },
-          "type": "full-time",
-          "location": "remote",
-          "summary": "",
-          "description": "",
-          "highlights": [
-            "Developed several modules for <a href=\"https://pod.ai/\">pod.ai</a> mobile app based on ionic, angularjs for students along with a react/redux based web app.",
-            "Designed interview problems for campus/off-campus recruitment drives."
-          ],
-          "epicIds": ["calyxpod"]
-        }
-      ]
-    },
-    {
-      "id": "instantpost",
-      "name": "InstantPost",
-      "shortName": "IP",
-      "url": {
-        "dest": "https://www.linkedin.com/company/instantpost",
-        "label": "InstantPost homepage"
-      },
-      "address": {
-        "city": "Bangalore",
-        "state": "KA",
-        "countryCode": "IN"
-      },
-      "summary": "InstantPost builds the next-generation consumer electronics.",
-      "description": "InstantPost builds the next-generation consumer electronics ecosystem for smart home and small business infrastructure. Now my tenure at InstantPost would seem unusually long, this was because I was still attending my college studies at that time and could not dedicate as a full time contributor. With that said I got a great opportunity to work on number of projects. Click at the Epic below to know my work there.",
-      "roles": [
-        {
-          "id": "sde",
-          "name": "Software Engineer",
-          "period": {
-            "start": [2018, 8],
-            "end": [2021, 1]
-          },
-          "type": "part-time",
-          "location": "remote",
-          "highlights": [
-            "Wrote frontend SDK for paper printing infrastructure.",
-            "Developed and integrated InstantPost's authorization server with several microservices.",
-            "Maintained and supported features for multiple microservices in Python and Flask."
-          ],
-          "epicIds": ["printing-platform"],
-          "tags": ["resume_pdf"]
-        }
-      ]
-    }
-  ],
-  "creations": [
-    {
-      "id": "almada",
-      "name": "Almada",
-      "url": {
-        "dest": "https://alm-live.kwalee.com/",
-        "label": "Almada homepage"
-      },
-      "summary": "An ad mediation platform for game developers.",
-      "description": "Almada is an <a target='_blank' href='https://www.is.com/glossary/ad-mediation/'>Ad Mediation</a> platform for game studios, businesses to optimise and manage ad-networks in one place with just one SDK integration.",
-      "projects": [
-        {
-          "id": "ad-mediation",
-          "name": "Ad Mediation Platform",
-          "role": "Maintainer",
-          "highlights": [
-            "Developed and delivered high fidelity UI revamp for the app from a MVP-stage UI, resulting in a new brand image for user acquisitions",
-            "Integrated AWS Cognito for Google SSO with app-level RBAC for authorization.",
-            "Implemented data import/export features in various modules for ease of administration over the platform.",
-            "Optimized performance issues across the app, resulting in better UX and overall app performance."
-          ],
-          "technologies": [
-            {
-              "id": "typescript",
-              "name": "TypeScript"
-            },
-            {
-              "id": "react",
-              "name": "React"
-            },
-            {
-              "id": "redux",
-              "name": "Redux",
-              "shortName": "ES"
-            },
-            {
-              "id": "tailwindcss",
-              "name": "Tailwind CSS"
-            },
-            {
-              "id": "awsamplify",
-              "name": "Amplify"
-            }
-          ],
-          "tags": ["resume_pdf"]
-        }
-      ]
-    },
-    {
-      "id": "kwalee-design-system",
-      "name": "Design System",
-      "summary": "Kwalee's internal design system",
-      "description": "Kwalee's internal design system powering many projects from game developer onboarding platform to Kwalee's very new main website (not out yet).",
-      "projects": [
-        {
-          "id": "kwalee-design-system",
-          "name": "KDS Monorepo",
-          "role": "Creator",
-          "highlights": [
-            "Laid the foundations with a monorepo(turborepo) consisting packages like react components, centralized tailwind-config, linter(biome) configs etc.",
-            "Integrated this system in two projects enhancing developer efficiency and reducing designer/developer workload by <b>60-70%</b>.",
-            "Architected dev scripts to propagate local changes over all host apps from local sub-dependencies using <a target='_blank' href='https://www.npmjs.com/package/chokidar'>chokidar</a> and <a target='_blank' href='https://www.npmjs.com/package/concurrently'>concurrently</a>"
-            
-          ],
-          "technologies": [
-            {
-              "id": "typescript",
-              "name": "TypeScript"
-            },
-            {
-              "id": "react",
-              "name": "React"
-            },
-            {
-              "id": "storybook",
-              "name": "Storybook"
-            },
-            {
-              "id": "tailwindcss",
-              "name": "Tailwind CSS"
-            },
-            {
-              "id": "awsamplify",
-              "name": "AWS Amplify"
-            },
-            {
-              "id": "turborepo",
-              "name": "Turborepo"
-            }
-          ],
-          "tags": ["resume_pdf"]
-        },
-        {
-          "id": "ds-infra",
-          "name": "Infrastructure ",
-          "role": "Maintainer",
-          "highlights": [
-            "Implemented build scripts in Node.js for automatic react component generation for SVGs from hundreds of SVG files.",
-            "Established automated deployment and npm release using AWS Amplify and Bitbucket pipelines"
-          ],
-          "technologies": [
-            {
-              "id": "typescript",
-              "name": "TypeScript"
-            },
-            {
-              "id": "react",
-              "name": "React"
-            },
-            {
-              "id": "storybook",
-              "name": "Storybook"
-            },
-            {
-              "id": "tailwindcss",
-              "name": "Tailwind CSS"
-            },
-            {
-              "id": "awsamplify",
-              "name": "AWS Amplify"
-            },
-            {
-              "id": "turborepo",
-              "name": "Turborepo"
-            }
-          ]
-        },
-        {
-          "id": "ds-docs",
-          "name": "Documentation",
-          "role": "Author",
-          "highlights": [
-            "Documented the technical design and usage guidelines for the design system as well for ease of integration with future applications.",
-            "Developed storybook app for easy component navigation and documentations."
-          ],
-          "technologies": [
-            {
-              "id": "typescript",
-              "name": "TypeScript"
-            },
-            {
-              "id": "react",
-              "name": "React"
-            },
-            {
-              "id": "storybook",
-              "name": "Storybook"
-            },
-            {
-              "id": "tailwindcss",
-              "name": "Tailwind CSS"
-            },
-            {
-              "id": "awsamplify",
-              "name": "AWS Amplify"
-            },
-            {
-              "id": "turborepo",
-              "name": "Turborepo"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "casual-games-tools",
-      "name": "Games Tools",
-      "summary": "Internal tools to support Kwalee's portfolio of casual mobile games.",
-      "description": "Internal tools to support Kwalee's portfolio of casual mobile games.",
-      "projects": [
-        {
-          "id": "data-migrator",
-          "name": "Data Migrator",
-          "summary": "A data management tool to view difference between game entities across environments and migrate them.",
-          "description": "A data management tool to view difference between game entities across environments and to migrate them based on business decisions.",
-          "role": "Creator",
-          "highlights": [
-            "Implemented a JSON diff viewer with customized algorithm for dynamic schema with nested arrays and objects.",
-            "Added the ability to view the outcome of merging the data objects.",
-            "Architected <a target='_blank' href='https://www.okta.com/blog/2020/09/attribute-based-access-control-abac/'>attribute based access control</a> across the app with polymorphic re-usable react components"
-          ],
-          "technologies": [
-            {
-              "id": "typescript",
-              "name": "TypeScript"
-            },
-            {
-              "id": "react",
-              "name": "React"
-            },
-            {
-              "id": "redux",
-              "name": "Redux"
-            },
-            {
-              "id": "mui",
-              "name": "MUI"
-            }
-          ]
-        },
-        {
-          "id": "casual-admin-core",
-          "name": "Games Dashboard Core",
-          "role": "Creator",
-          "description": "Stripped off casual games admin dashboard's core components into a central library to support multiple games.",
-          "highlights": [
-            "Isolated casual games admin dashboard's core pages, services, components using <a href='https://vite.dev/guide/build#library-mode' target='_blank'>Vite's library mode</a>.",
-            "Separated elements as building blocks with composition and inheritance patterns.",
-            "Supported multiple games dashboard with their game specific parameters with this lib as a base for them.",
-            "Documented the technical implementation and its usage guidelines."
-          ],
-          "technologies": [
-            {
-              "id": "typescript",
-              "name": "TypeScript"
-            },
-            {
-              "id": "react",
-              "name": "React"
-            },
-            {
-              "id": "redux",
-              "name": "Redux"
-            },
-            {
-              "id": "npm",
-              "name": "NPM"
-            },
-            {
-              "id": "vite",
-              "name": "Vite"
-            }
-          ]
-        },
-        {
-          "id": "casual-admin",
-          "name": "Games Admin Dashboard",
-          "role": "Maintainer",
-          "description": "This was Kwalee's casual games dashboard, primarily used for <a target='_blank' href='https://play.google.com/store/apps/details?id=com.kwalee.dreambuildsolitaire'>Dream Build Solitaire</a> game.",
-          "highlights": [
-            "Developed a custom Calendar component to view game events' timelines for data-analysis.",
-            "Optimized data set tables with list virtualization.",
-            "Integrated drag and drop ability within the above-mentioned virtualized tables for row re-ordering.",
-            "Worked on a number of features to support addition of generic levels, announcements for the game."
-
-          ],
-          "technologies": [
-            {
-              "id": "typescript",
-              "name": "TypeScript"
-            },
-            {
-              "id": "react",
-              "name": "React"
-            },
-            {
-              "id": "redux",
-              "name": "Redux"
-            },
-            {
-              "id": "mui",
-              "name": "MUI"
-            },
-            {
-              "id": "awsamplify",
-              "name": "AWS Amplify"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "nexusplatform",
-      "name": "NexusPlatform",
-      "url": "https://nexusplatform.co.uk/",
-      "description": "UK based GroupNexus's car park management system.",
-      "projects": [
-        {
-          "id": "Platform",
-          "name": "Platform",
-          "role": "Maintainer",
-          "highlights": [
-            "Integrated Stripe's BACS direct debit for ease of payments propelling revenue with good numbers, £500k+ and still climbing",
-            "Architected, planned and led end-to-end Azure AD SSO integration with google cloud platform.",
-            "Implemented scalable multi-timezone support across the app for time critical modules to support new countries in client's portfolio."
-          ],
-          "technologies": [
-            {
-              "id": "typescript",
-              "name": "TypeScript"
-            },
-            {
-              "id": "react",
-              "name": "React"
-            },
-            {
-              "id": "redux",
-              "name": "Redux"
-            },
-            {
-              "id": "antdesign",
-              "name": "Ant Design"
-            },
-            {
-              "id": "firebase",
-              "name": "Firebase"
-            },
-            {
-              "id": "googlecloud",
-              "name": "Google Cloud"
-            }
-          ],
-          "tags": ["resume_pdf"]
-        },
-        {
-          "id": "enforcement",
-          "name": "Enforcement Management",
-          "role": "Maintainer",
-          "highlights": [
-            "Implemented scalable multi-timezone support across the app for time critical modules to support new countries in client's portfolio.",
-            "Increased test coverage of various modules from ∼50% to 85% with Jest & RTL (React testing library) to further increase the system's robustness.",
-            "Designed and developed a module for asynchronous bulk data processing using Python/Flask with GCP Pub/Sub architecture which reducing administration time required for manual UI updates by 40%.",
-            "Improved code structure of legacy code bases by moving common logic to reusable React components, containers, hooks, and services.",
-            "Added multi-language support in a dynamic multi step form and its template"
-          ],
-          "technologies": [
-            {
-              "id": "typescript",
-              "name": "TypeScript"
-            },
-            {
-              "id": "react",
-              "name": "React"
-            },
-            {
-              "id": "redux",
-              "name": "Redux"
-            },
-            {
-              "id": "antdesign",
-              "name": "Ant Design"
-            },
-            {
-              "id": "firebase",
-              "name": "Firebase"
-            },
-            {
-              "id": "googlecloud",
-              "name": "Google Cloud"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "calyxpod",
-      "name": "Calyxpod",
-      "summary": "An application for end-to-end recruitment management for institutes and companies.",
-      "description": "An application for end-to-end recruitment management for institutes and companies. I mainly worked on the students app.",
-      "projects": [
-        {
-          "id": "Platform",
-          "name": "Platform",
-          "url": "https://pod.ai/",
-          "role": "Maintainer",
-          "highlights": [
-            "Worked with stake holders to revamp the app dashboard, post feed, forums, job opportunities, job offers page's UI/UX.",
-            "Prioritized, debugged and fixed bugs in the backlog and made the mobile app overall stable for usage.",
-            "Quickly ramped up on angularjs which was used in this project.",
-            "Worked on its react based web app as well to develop business supporting features"
-          ],
-          "technologies": [
-            {
-              "id": "javascript",
-              "name": "JavaScript"
-            },
-            {
-              "id": "angular",
-              "name": "Angular"
-            },
-            {
-              "id": "ionic",
-              "name": "Ionic"
-            },
-            {
-              "id": "capacitor",
-              "name": "Capacitor"
-            },
-            {
-              "id": "react",
-              "name": "React"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "printing-platform",
-      "name": "Printing Infra",
-      "description": "At InstantPost I contributed to build two core offline first web applications and supporting backend microservices to leverage its printing kiosk infrastructure for on demand paper printing.",
-      "projects": [   
-        {
-          "id": "printing-sdk",
-          "name": "Printing SDK",
-          "description": "This is InstantPost core frontend SDK to let frontend apps to use its printing hardware capabilities.",
-          "role": "Creator",
-          "highlights": [
-            "Used webpack to create a generic re-usable frontend SDK.",
-            "Integrated Leaflet to show map with interactivity for custom actions.",
-            "Consumed multiple distributed microservices with central auth."
-          ],
-          "technologies": [
-            {
-              "id": "javascript",
-              "name": "JavaScript"
-            },
-            {
-              "id": "leaflet",
-              "name": "Leaflet"
-            },
-            {
-              "id": "webpack",
-              "name": "Webpack"
-            },
-            {
-              "id": "openstreetmap",
-              "name": "Open Street Map"
-            }
-          ],
-          "tags": ["resume_pdf"]
-        },
-        {
-          "id": "GIS",
-          "name": "GIS",
-          "description": "Geographic information system is a backend service which stores the geographical locations of printer nodes and provides supporting co-ordinates and OSM APIs",
-          "role": "Maintainer",
-          "highlights": [
-            "Used messaging queues to asynchronously communicate with other services.",
-            "Refactored distance calculating algorithm and overall codebase to use REST standards with flask RESTful"
-          ],
-          "technologies": [
-            {
-              "id": "python",
-              "name": "Python"
-            },
-            {
-              "id": "flask",
-              "name": "Flask"
-            },
-            {
-              "id": "openstreetmap",
-              "name": "Open Street Map"
-            },
-            {
-              "id": "zeromq",
-              "name": "ZMQ"
-            }
-          ]
-        },
-        {
-          "id": "bootstrap",
-          "name": "Bootstrap.today",
-          "description": "Bootstrap.today is a platform for creation, signing and management of digital agreements & documents.",
-          "role": "Creator",
-          "highlights": [
-            "An offline first application leveraging service workers and background sync.",
-            "Created a intuitive interface for creation of document templates and workflows",
-            "Integrated the printing SDK to let users select printing nodes, upload documents and schedule prints.",
-            "Created MVC structured backend with express and mongo"
-          ],
-          "technologies": [
-            {
-              "id": "javascript",
-              "name": "JavaScript"
-            },
-            {
-              "id": "nodedotjs",
-              "name": "Node.js"
-            },
-            {
-              "id": "express",
-              "name": "Express"
-            },
-            {
-              "id": "mongodb",
-              "name": "MongoDB"
-            }
-          ]
-        },
-        {
-          "id": "snoopy",
-          "name": "Snoopy",
-          "description": "Snoopy is a chat app where user could talk to each other, share documents and even initiate print workflows with the printing SDK.",
-          "role": "Maintainer",
-          "highlights": [
-            "Worked on optimizing the chat order with storing the timestamp when user actually clicked sent along with server timestamp",
-            "Integrated printing SDK to utilize printing infrastructure within the chat interface"
-          ],
-          "technologies": [
-            {
-              "id": "typescript",
-              "name": "TypeScript"
-            },
-            {
-              "id": "angular",
-              "name": "Angular"
-            }
-          ]
-        },
-        {
-          "id": "auth-server",
-          "name": "Auth server",
-          "description": "This was IP's central auth server written in php which works as an identity provider, so that all the users could login with InstantPost credentials across all the apps.",
-          "role": "Maintainer",
-          "highlights": [
-            "Added functionality to blacklist JWT tokens on logouts, duplicate logins etc. for enhanced security.",
-            "Designed and implemented the login/registration pages for the frontend.",
-            "Integrated this with other frontend/backend as well."
-          ],
-          "technologies": [
-            {
-              "id": "php",
-              "name": "php"
-            },
-            {
-              "id": "cakephp",
-              "name": "cakePHP"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"$schema": "https://recivi.pages.dev/schemas/recivi-resume.json",
+	"bio": {
+		"name": "Tanuj Nagpal",
+		"fullName": "Tanuj Nagpal",
+		"summary": "Software engineering enthusiast by heart, frontend developer by profession and code story-teller • Haryana, 🇮🇳",
+		"labels": [
+			"Software engineering enthusiast by heart",
+			"frontend developer by profession"
+		],
+		"aliases": ["tanuj"],
+		"contact": {
+			"emails": ["tanujnagpal999@gmail.com"],
+			"phones": [
+				{
+					"countryCode": 91,
+					"number": "9034902763"
+				}
+			]
+		},
+		"image": "https://www.gravatar.com/avatar/0eab64adad056cff2492e7c407a9aa21?s=256",
+		"profiles": [
+			{
+				"site": {
+					"id": "whatsapp",
+					"name": "WhatsApp"
+				},
+				"url": "https://wa.me/+919034902763",
+				"username": "+91 9034902763"
+			},
+			{
+				"site": {
+					"id": "github",
+					"name": "GitHub"
+				},
+				"url": "https://github.com/tanuj101",
+				"username": "tanuj101"
+			},
+			{
+				"site": {
+					"id": "linkedin",
+					"name": "LinkedIn"
+				},
+				"url": "https://www.linkedin.com/in/tanuj101",
+				"username": "tanuj101"
+			},
+			{
+				"site": {
+					"id": "bluesky",
+					"name": "Bluesky"
+				},
+				"url": "https://bsky.app/profile/tanujtn.bsky.social",
+				"username": "tanujtn"
+			}
+		],
+		"skills": [
+			{
+				"name": "Web",
+				"subSkills": [
+					{ "id": "html5", "name": "HTML" },
+					{ "id": "css", "name": "CSS" },
+					{ "id": "styledcomponents", "name": "styled" }
+				]
+			},
+			{
+				"name": "Forms",
+				"subSkills": [
+					{ "id": "reacthookform", "name": "reacthookform" },
+					{ "id": "formik", "name": "Formik" }
+				]
+			},
+			{
+				"name": "Schemas",
+				"subSkills": ["Yup", { "id": "zod", "name": "Zod" }]
+			},
+			{
+				"name": "Tools",
+				"subSkills": [
+					{ "id": "vite", "name": "Vite" },
+					{ "id": "eslint", "name": "ESLint" },
+					{ "id": "biome", "name": "Biome" }
+				]
+			},
+			{
+				"name": "Cloud",
+				"subSkills": [
+					{ "id": "googlecloud", "name": "Google Cloud" },
+					{ "id": "renovate", "name": "Renovate" }
+				]
+			},
+			{
+				"name": "Python",
+				"subSkills": [{ "id": "flask", "name": "Flask" }]
+			},
+			{
+				"name": "Testing",
+				"subSkills": [
+					{ "id": "pytest", "name": "Pytest" },
+					{ "id": "jest", "name": "Jest" }
+				]
+			},
+			{
+				"name": "Database",
+				"subSkills": [
+					{ "id": "firebase", "name": "Firebase" },
+					{ "id": "postgresql", "name": "PostgreSQL" }
+				]
+			},
+			{
+				"name": "Shell",
+				"subSkills": [
+					{ "id": "gnubash", "name": "Bash" },
+					{ "id": "zsh", "name": "Zsh" },
+					{ "id": "fishshell", "name": "Fish" }
+				]
+			},
+			{
+				"name": "OS",
+				"subSkills": [
+					{ "id": "archlinux", "name": "Arch" },
+					{ "id": "kde", "name": "KDE" },
+					{ "id": "ubuntu", "name": "Ubuntu" },
+					{ "id": "apple", "name": "mac" }
+				]
+			},
+			{
+				"name": "Misc.",
+				"subSkills": [
+					{ "id": "reacttable", "name": "react-table" },
+					{ "id": "reactquery", "name": "RTK Query" }
+				]
+			}
+		],
+		"origin": {
+			"city": "Bhiwani",
+			"state": "HR",
+			"countryCode": "IN"
+		}
+	},
+	"education": [
+		{
+			"id": "jmit",
+			"name": "JMIT",
+			"shortName": "JMIT",
+			"url": {
+				"dest": "https://www.jmit.ac.in/",
+				"label": "JMIT homepage"
+			},
+			"address": {
+				"city": "Yamunanagar",
+				"state": "HR",
+				"countryCode": "IN",
+				"postalCode": 135133
+			},
+			"certs": [
+				{
+					"id": "b_tech",
+					"name": "Bachelor of Technology",
+					"shortName": "B. Tech.",
+					"issue": [2021],
+					"period": {
+						"start": [2017],
+						"end": [2021]
+					},
+					"score": "75.9",
+					"maxScore": "100",
+					"field": "Computer Science",
+					"tags": ["resume_pdf"]
+				}
+			]
+		},
+		{
+			"id": "a-a",
+			"name": "Adarsh Academy",
+			"shortName": "AVM",
+			"url": {
+				"dest": "https://avmbhiwani.edu.in/",
+				"label": "Adarsh Academy homepage"
+			},
+			"address": {
+				"city": "Bhiwani",
+				"state": "HR",
+				"countryCode": "IN",
+				"postalCode": 127021
+			},
+			"certs": [
+				{
+					"id": "cbse",
+					"name": "Central Board Of Secondary Education",
+					"shortName": "CBSE Class 12",
+					"issue": [2017],
+					"period": {
+						"start": [2016],
+						"end": [2017]
+					},
+					"score": "8.80",
+					"maxScore": "10.000",
+					"field": "Science"
+				}
+			]
+		},
+		{
+			"id": "bps",
+			"name": "Bhiwani Public School",
+			"shortName": "BPS",
+			"url": {
+				"dest": "https://www.bpsbhiwani.edu.in/",
+				"label": "BPS homepage"
+			},
+			"address": {
+				"city": "Bhiwani",
+				"state": "HR",
+				"countryCode": "IN",
+				"postalCode": 127021
+			},
+			"certs": [
+				{
+					"id": "cbse",
+					"name": "Central Board Of Secondary Education",
+					"shortName": "CBSE Class 10",
+					"issue": [2015],
+					"period": {
+						"start": [2014],
+						"end": [2015]
+					},
+					"score": "8.80",
+					"maxScore": "10.000"
+				}
+			]
+		}
+	],
+	"work": [
+		{
+			"id": "kwalee",
+			"name": "Kwalee",
+			"shortName": "kwl",
+			"url": {
+				"dest": "https://www.kwalee.com/",
+				"label": "Kwalee Homepage"
+			},
+			"address": {
+				"city": "Royal Leamington Spa",
+				"state": "England",
+				"countryCode": "GB"
+			},
+			"summary": "The company behind <a href=\"https://play.google.com/store/apps/details?id=com.kwalee.drawit\">Draw it</a>, <a href=\"https://play.google.com/store/apps/details?id=com.syubestgames.teachersimulator\">Teacher Simulator</a>, <a href=\"https://play.google.com/store/apps/details?id=com.sunsetgames.bordersecurity\">Airport Security</a>, <a href=\"https://play.google.com/store/apps/details?id=com.kwalee.bakeit/\">Bake it</a> and many more fun games.",
+			"description": "Kwalee is the company behind <a href=\"https://play.google.com/store/apps/details?id=com.kwalee.drawit\">Draw it</a>, <a href=\"https://play.google.com/store/apps/details?id=com.syubestgames.teachersimulator\">Teacher Simulator</a>, <a href=\"https://play.google.com/store/apps/details?id=com.sunsetgames.bordersecurity\">Airport Security</a>, <a href=\"https://play.google.com/store/apps/details?id=com.kwalee.bakeit/\">Bake it</a> and many more fun games. They believe in making the most fun games for the world.",
+			"roles": [
+				{
+					"id": "fe-dev-almada",
+					"name": "Frontend Developer II",
+					"highlights": [
+						"Built Kwalee's internal UI design system from scratch to power an ad-mediation platform and other frontend apps.",
+						"Integrated authentication flow and <a href='https://www.okta.com/identity-101/what-is-role-based-access-control-rbac/' target='_blank'>RBAC</a> end to end across Almada.",
+						"Worked on various features to make the Almada B2B ready."
+					],
+					"period": {
+						"start": [2024, 6]
+					},
+					"type": "full-time",
+					"location": "remote",
+					"epicIds": ["almada", "kwalee-design-system"],
+					"tags": ["resume_pdf"]
+				},
+				{
+					"id": "fe-dev-casual-games",
+					"name": "Frontend Developer II",
+					"period": {
+						"start": [2023, 11],
+						"end": [2024, 5]
+					},
+					"type": "full-time",
+					"location": "remote",
+					"epicIds": ["casual-games-tools"],
+					"highlights": [
+						"Worked on multiple features to support admin dashboard for <a target='_blank' href='https://play.google.com/store/apps/details?id=com.kwalee.dreambuildsolitaire'>Dream Build Solitaire</a> and other games.",
+						"Optimized code structure to make an admin dashboard support multiple games.",
+						"Implemented <a target='_blank' href='https://www.okta.com/blog/2020/09/attribute-based-access-control-abac/'>ABAC</a> across the apps to support access control across teams/environments."
+					],
+					"tags": ["resume_pdf"]
+				}
+			]
+		},
+		{
+			"id": "jtg",
+			"name": "JTG",
+			"shortName": "JTG",
+			"url": {
+				"dest": "https://www.joshtechnologygroup.com/",
+				"label": "Josh Technology Group homepage"
+			},
+			"address": {
+				"city": "Gurugram",
+				"state": "HR",
+				"countryCode": "IN"
+			},
+			"summary": "JTG provides advanced and customized technological solutions for its clients to overcome business challenges.",
+			"description": "JTG provides advanced and customized technological solutions to companies with a focus on overcoming business challenges.",
+			"roles": [
+				{
+					"id": "sfd-1",
+					"name": "Senior Frontend Developer",
+					"period": {
+						"start": [2022, 10],
+						"end": [2023, 10]
+					},
+					"type": "full-time",
+					"location": "onsite",
+					"highlights": [
+						"Led multiple cross-functional teams for medium to high complexity features in React, Firebase, Python, GCP architecture for a car park management platform.",
+						"Designed, reviewed & implemented technical implementation design and plans for features like Azure AD SSO, integrating payment gateways etc.",
+						"Onboarded & mentored new developers, conducted interviews."
+					],
+					"epicIds": ["nexusplatform"],
+					"tags": ["resume_pdf"]
+				},
+				{
+					"id": "fd",
+					"name": "Frontend Developer",
+					"period": {
+						"start": [2021, 8],
+						"end": [2022, 9]
+					},
+					"type": "full-time",
+					"location": "hybrid",
+					"highlights": [
+						"Supported the device management team to implement a multi-step form with google maps integration.",
+						"Facilitated multi-timezone support for UI timestamps across the platform for accurate datetime.",
+						"Designed interview problems for campus/off-campus recruitment drives."
+					],
+					"epicIds": ["nexusplatform"],
+					"tags": ["resume_pdf"]
+				},
+				{
+					"id": "fd",
+					"name": "Frontend Developer",
+					"period": {
+						"start": [2021, 1],
+						"end": [2021, 7]
+					},
+					"type": "full-time",
+					"location": "remote",
+					"summary": "",
+					"description": "",
+					"highlights": [
+						"Developed several modules for <a href=\"https://pod.ai/\">pod.ai</a> mobile app based on ionic, angularjs for students along with a react/redux based web app.",
+						"Designed interview problems for campus/off-campus recruitment drives."
+					],
+					"epicIds": ["calyxpod"]
+				}
+			]
+		},
+		{
+			"id": "instantpost",
+			"name": "InstantPost",
+			"shortName": "IP",
+			"url": {
+				"dest": "https://www.linkedin.com/company/instantpost",
+				"label": "InstantPost homepage"
+			},
+			"address": {
+				"city": "Bangalore",
+				"state": "KA",
+				"countryCode": "IN"
+			},
+			"summary": "InstantPost builds the next-generation consumer electronics.",
+			"description": "InstantPost builds the next-generation consumer electronics ecosystem for smart home and small business infrastructure. Now my tenure at InstantPost would seem unusually long, this was because I was still attending my college studies at that time and could not dedicate as a full time contributor. With that said I got a great opportunity to work on number of projects. Click at the Epic below to know my work there.",
+			"roles": [
+				{
+					"id": "sde",
+					"name": "Software Engineer",
+					"period": {
+						"start": [2018, 8],
+						"end": [2021, 1]
+					},
+					"type": "part-time",
+					"location": "remote",
+					"highlights": [
+						"Wrote frontend SDK for paper printing infrastructure. Integrated this with two of the InstantPost's core web applications.",
+						"Developed and integrated InstantPost's authorization server with several microservices.",
+						"Maintained and supported features for multiple microservices in Python and Flask.",
+						"Wrote Embedded C for LattePanda platform to control payments, temperature regulators for printing infrastructure."
+					],
+					"epicIds": ["printing-platform"],
+					"tags": ["resume_pdf"]
+				}
+			]
+		}
+	],
+	"creations": [
+		{
+			"id": "almada",
+			"name": "Almada",
+			"summary": "An ad mediation platform for game studios and independent game developers.",
+			"description": "Almada is an <a target='_blank' href='https://www.is.com/glossary/ad-mediation/'>Ad Mediation</a> platform for game studios, businesses to optimize and manage ad-networks in one place with just one SDK integration.",
+			"projects": [
+				{
+					"id": "ad-mediation",
+					"name": "Ad Mediation Platform",
+					"role": "Maintainer",
+					"highlights": [
+						"Developed and delivered high fidelity UI revamp for the app from a MVP-stage UI, resulting in a new brand image for user acquisitions.",
+						"Integrated AWS Cognito for Google SSO with app-level RBAC for authorization.",
+						"Designed & implemented data import/export features in various modules for ease of administration over the platform, reducing administrative time by <b>40%</b> with intuitive UI.",
+						"Optimized performance issues across the app, resulting in better UX and overall app performance."
+					],
+					"technologies": [
+						{
+							"id": "typescript",
+							"name": "TypeScript"
+						},
+						{
+							"id": "react",
+							"name": "React"
+						},
+						{
+							"id": "redux",
+							"name": "Redux",
+							"shortName": "ES"
+						},
+						{
+							"id": "tailwindcss",
+							"name": "Tailwind CSS"
+						},
+						{
+							"id": "awsamplify",
+							"name": "Amplify"
+						}
+					],
+					"tags": ["resume_pdf"]
+				}
+			]
+		},
+		{
+			"id": "kwalee-design-system",
+			"name": "Design System",
+			"summary": "Kwalee's internal UI design system",
+			"description": "Kwalee's internal design system powering many projects from game developer onboarding platform to Kwalee's very new main website (not out yet).",
+			"projects": [
+				{
+					"id": "kwalee-design-system",
+					"name": "UI Design System",
+					"role": "Creator",
+					"highlights": [
+						"Laid the foundations with a monorepo(turborepo) consisting packages like react components, centralized tailwind-config, linter(biome) configs etc.",
+						"Integrated this system in two projects enhancing developer efficiency and reducing designer/developer workload by <b>60-70%</b>.",
+						"Wrote dev scripts to propagate local changes over all host apps from local dependencies using <a target='_blank' href='https://www.npmjs.com/package/chokidar'>chokidar</a> and <a target='_blank' href='https://www.npmjs.com/package/concurrently'>concurrently</a>."
+					],
+					"technologies": [
+						{
+							"id": "typescript",
+							"name": "TypeScript"
+						},
+						{
+							"id": "react",
+							"name": "React"
+						},
+						{
+							"id": "storybook",
+							"name": "Storybook"
+						},
+						{
+							"id": "tailwindcss",
+							"name": "Tailwind CSS"
+						},
+						{
+							"id": "awsamplify",
+							"name": "AWS Amplify"
+						},
+						{
+							"id": "turborepo",
+							"name": "Turborepo"
+						}
+					],
+					"tags": ["resume_pdf"]
+				},
+				{
+					"id": "ds-infra",
+					"name": "Infrastructure ",
+					"role": "Maintainer",
+					"highlights": [
+						"Implemented build scripts in Node.js for automatic react component generation for SVGs from hundreds of SVG files.",
+						"Established automated deployment and npm release using AWS Amplify and Bitbucket pipelines"
+					],
+					"technologies": [
+						{
+							"id": "typescript",
+							"name": "TypeScript"
+						},
+						{
+							"id": "react",
+							"name": "React"
+						},
+						{
+							"id": "storybook",
+							"name": "Storybook"
+						},
+						{
+							"id": "tailwindcss",
+							"name": "Tailwind CSS"
+						},
+						{
+							"id": "awsamplify",
+							"name": "AWS Amplify"
+						},
+						{
+							"id": "turborepo",
+							"name": "Turborepo"
+						}
+					]
+				},
+				{
+					"id": "ds-docs",
+					"name": "Documentation",
+					"role": "Author",
+					"highlights": [
+						"Documented the technical design and usage guidelines for the design system as well for ease of integration with future applications.",
+						"Developed storybook app for easy component navigation and documentations."
+					],
+					"technologies": [
+						{
+							"id": "typescript",
+							"name": "TypeScript"
+						},
+						{
+							"id": "react",
+							"name": "React"
+						},
+						{
+							"id": "storybook",
+							"name": "Storybook"
+						},
+						{
+							"id": "tailwindcss",
+							"name": "Tailwind CSS"
+						},
+						{
+							"id": "awsamplify",
+							"name": "AWS Amplify"
+						},
+						{
+							"id": "turborepo",
+							"name": "Turborepo"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "casual-games-tools",
+			"name": "Games Tools",
+			"summary": "Internal tools to support Kwalee's portfolio of casual mobile games.",
+			"description": "Internal tools to support Kwalee's portfolio of casual mobile games.",
+			"projects": [
+				{
+					"id": "data-migrator",
+					"name": "Data Migrator",
+					"summary": "A data management tool to view difference between game entities across environments and migrate them.",
+					"description": "A data management tool to view difference between game entities across environments and to migrate them based on business decisions.",
+					"role": "Creator",
+					"highlights": [
+						"Implemented a JSON diff viewer with customized algorithm for dynamic schema with nested arrays and objects.",
+						"Added the ability to view the outcome of merging the data objects.",
+						"Architected <a target='_blank' href='https://www.okta.com/blog/2020/09/attribute-based-access-control-abac/'>attribute based access control</a> across the app with polymorphic re-usable react components"
+					],
+					"technologies": [
+						{
+							"id": "typescript",
+							"name": "TypeScript"
+						},
+						{
+							"id": "react",
+							"name": "React"
+						},
+						{
+							"id": "redux",
+							"name": "Redux"
+						},
+						{
+							"id": "mui",
+							"name": "MUI"
+						}
+					]
+				},
+				{
+					"id": "casual-admin-core",
+					"name": "Games Dashboard Core",
+					"role": "Creator",
+					"description": "Stripped off casual games admin dashboard's core components into a central library to support multiple games.",
+					"highlights": [
+						"Isolated casual games admin dashboard's core pages, services, components using <a href='https://vite.dev/guide/build#library-mode' target='_blank'>Vite's library mode</a>.",
+						"Separated elements as building blocks with composition and inheritance patterns.",
+						"Supported multiple games dashboard with their game specific parameters with this lib as a base for them.",
+						"Documented the technical implementation and its usage guidelines."
+					],
+					"technologies": [
+						{
+							"id": "typescript",
+							"name": "TypeScript"
+						},
+						{
+							"id": "react",
+							"name": "React"
+						},
+						{
+							"id": "redux",
+							"name": "Redux"
+						},
+						{
+							"id": "npm",
+							"name": "NPM"
+						},
+						{
+							"id": "vite",
+							"name": "Vite"
+						}
+					]
+				},
+				{
+					"id": "casual-admin",
+					"name": "Games Admin Dashboard",
+					"role": "Maintainer",
+					"description": "This was Kwalee's casual games dashboard, primarily used for <a target='_blank' href='https://play.google.com/store/apps/details?id=com.kwalee.dreambuildsolitaire'>Dream Build Solitaire</a> game.",
+					"highlights": [
+						"Developed a custom Calendar component to view game events' timelines for data-analysis.",
+						"Optimized data set tables with list virtualization.",
+						"Integrated drag and drop ability within the above-mentioned virtualized tables for row re-ordering.",
+						"Worked on a number of features to support addition of generic levels, announcements for the game."
+					],
+					"technologies": [
+						{
+							"id": "typescript",
+							"name": "TypeScript"
+						},
+						{
+							"id": "react",
+							"name": "React"
+						},
+						{
+							"id": "redux",
+							"name": "Redux"
+						},
+						{
+							"id": "mui",
+							"name": "MUI"
+						},
+						{
+							"id": "awsamplify",
+							"name": "AWS Amplify"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "nexusplatform",
+			"name": "NexusPlatform",
+			"url": "https://nexusplatform.co.uk/",
+			"summary": "<a target='_blank' href='https://groupnexus.co.uk/'>GroupNexus</a> owned car park management platform supporting over 1,200 parking sites all over UK.",
+			"description": "GroupNexus manages car parks across the UK and Spain. It offers an end-to-end service, from technology that monitors and analyzes parking data, to setting the standard for the provision of management services. .",
+			"projects": [
+				{
+					"id": "Platform",
+					"name": "Platform",
+					"role": "Maintainer",
+					"highlights": [
+						"Integrated Stripe's BACS direct debit for ease of payments propelling revenue with good numbers, £500k+ and still climbing",
+						"Architected, planned and led end-to-end Azure AD SSO integration with google cloud platform.",
+						"Implemented scalable multi-timezone support for time-critical modules to support new countries in client's portfolio."
+					],
+					"technologies": [
+						{
+							"id": "typescript",
+							"name": "TypeScript"
+						},
+						{
+							"id": "react",
+							"name": "React"
+						},
+						{
+							"id": "redux",
+							"name": "Redux"
+						},
+						{
+							"id": "antdesign",
+							"name": "Ant Design"
+						},
+						{
+							"id": "firebase",
+							"name": "Firebase"
+						},
+						{
+							"id": "googlecloud",
+							"name": "Google Cloud"
+						}
+					],
+					"tags": ["resume_pdf"]
+				},
+				{
+					"id": "enforcement",
+					"name": "Enforcement Management",
+					"role": "Maintainer",
+					"highlights": [
+						"Implemented scalable multi-timezone support across the app for time critical modules to support new countries in client's portfolio.",
+						"Increased test coverage of various modules from ∼50% to 85% with Jest & RTL (React testing library) to further increase the system's robustness.",
+						"Designed and developed a module for asynchronous bulk data processing using Python/Flask with GCP Pub/Sub architecture which reducing administration time required for manual UI updates by 40%.",
+						"Improved code structure of legacy code bases by moving common logic to reusable React components, containers, hooks, and services.",
+						"Added multi-language support in a dynamic multi step form and its template"
+					],
+					"technologies": [
+						{
+							"id": "typescript",
+							"name": "TypeScript"
+						},
+						{
+							"id": "react",
+							"name": "React"
+						},
+						{
+							"id": "redux",
+							"name": "Redux"
+						},
+						{
+							"id": "antdesign",
+							"name": "Ant Design"
+						},
+						{
+							"id": "firebase",
+							"name": "Firebase"
+						},
+						{
+							"id": "googlecloud",
+							"name": "Google Cloud"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "calyxpod",
+			"name": "Calyxpod",
+			"summary": "An application for end-to-end recruitment management for institutes and companies.",
+			"description": "An application for end-to-end recruitment management for institutes and companies. I mainly worked on the students app.",
+			"projects": [
+				{
+					"id": "Platform",
+					"name": "Platform",
+					"url": "https://pod.ai/",
+					"role": "Maintainer",
+					"highlights": [
+						"Worked with stake holders to revamp the app dashboard, post feed, forums, job opportunities, job offers page's UI/UX.",
+						"Prioritized, debugged and fixed bugs in the backlog and made the mobile app overall stable for usage.",
+						"Quickly ramped up on angularjs which was used in this project.",
+						"Worked on its react based web app as well to develop business supporting features"
+					],
+					"technologies": [
+						{
+							"id": "javascript",
+							"name": "JavaScript"
+						},
+						{
+							"id": "angular",
+							"name": "Angular"
+						},
+						{
+							"id": "ionic",
+							"name": "Ionic"
+						},
+						{
+							"id": "capacitor",
+							"name": "Capacitor"
+						},
+						{
+							"id": "react",
+							"name": "React"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "printing-platform",
+			"name": "Printing Infra",
+			"description": "At InstantPost I contributed to build two core offline first web applications and supporting backend microservices to leverage its printing kiosk infrastructure for on demand paper printing.",
+			"projects": [
+				{
+					"id": "printing-sdk",
+					"name": "Printing SDK",
+					"description": "This is InstantPost core frontend SDK to let frontend apps to use its printing hardware capabilities.",
+					"role": "Creator",
+					"highlights": [
+						"Used webpack to write a generic re-usable frontend SDK and integrated it into various frontend apps.",
+						"Worked on multiple microservices in an edge network infrastructure."
+					],
+					"technologies": [
+						{
+							"id": "javascript",
+							"name": "JavaScript"
+						},
+						{
+							"id": "leaflet",
+							"name": "Leaflet"
+						},
+						{
+							"id": "webpack",
+							"name": "Webpack"
+						},
+						{
+							"id": "openstreetmap",
+							"name": "Open Street Map"
+						}
+					],
+					"tags": ["resume_pdf"]
+				},
+				{
+					"id": "GIS",
+					"name": "GIS",
+					"description": "Geographic information system is a backend service which stores the geographical locations of printer nodes and provides supporting co-ordinates and OSM APIs",
+					"role": "Maintainer",
+					"highlights": [
+						"Used messaging queues to asynchronously communicate with other services.",
+						"Refactored distance calculating algorithm and overall codebase to use REST standards with flask RESTful"
+					],
+					"technologies": [
+						{
+							"id": "python",
+							"name": "Python"
+						},
+						{
+							"id": "flask",
+							"name": "Flask"
+						},
+						{
+							"id": "openstreetmap",
+							"name": "Open Street Map"
+						},
+						{
+							"id": "zeromq",
+							"name": "ZMQ"
+						}
+					]
+				},
+				{
+					"id": "bootstrap",
+					"name": "Bootstrap.today",
+					"description": "Bootstrap.today is a platform for creation, signing and management of digital agreements & documents.",
+					"role": "Creator",
+					"highlights": [
+						"An offline first application leveraging service workers and background sync.",
+						"Created a intuitive interface for creation of document templates and workflows",
+						"Integrated the printing SDK to let users select printing nodes, upload documents and schedule prints.",
+						"Created MVC structured backend with express and mongo"
+					],
+					"technologies": [
+						{
+							"id": "javascript",
+							"name": "JavaScript"
+						},
+						{
+							"id": "nodedotjs",
+							"name": "Node.js"
+						},
+						{
+							"id": "express",
+							"name": "Express"
+						},
+						{
+							"id": "mongodb",
+							"name": "MongoDB"
+						}
+					]
+				},
+				{
+					"id": "snoopy",
+					"name": "Snoopy",
+					"description": "Snoopy is a chat app where user could talk to each other, share documents and even initiate print workflows with the printing SDK.",
+					"role": "Maintainer",
+					"highlights": [
+						"Worked on optimizing the chat order with storing the timestamp when user actually clicked sent along with server timestamp",
+						"Integrated printing SDK to utilize printing infrastructure within the chat interface"
+					],
+					"technologies": [
+						{
+							"id": "typescript",
+							"name": "TypeScript"
+						},
+						{
+							"id": "angular",
+							"name": "Angular"
+						}
+					]
+				},
+				{
+					"id": "auth-server",
+					"name": "Auth server",
+					"description": "This was IP's central auth server written in php which works as an identity provider, so that all the users could login with InstantPost credentials across all the apps.",
+					"role": "Maintainer",
+					"highlights": [
+						"Added functionality to blacklist JWT tokens on logouts, duplicate logins etc. for enhanced security.",
+						"Designed and implemented the login/registration pages for the frontend.",
+						"Integrated this with other frontend/backend as well."
+					],
+					"technologies": [
+						{
+							"id": "php",
+							"name": "php"
+						},
+						{
+							"id": "cakephp",
+							"name": "cakePHP"
+						}
+					]
+				},
+				{
+					"id": "commando",
+					"name": "Commando",
+					"summary": "Software to manage IP's printers remotely in realtime.",
+					"description": "Software to manage IP's printers remotely in realtime.",
+					"role": "Maintainer",
+					"highlights": [
+						"Wrote embedded C code to control pay and print supporting devices like coin acceptors, currency note acceptors, temperature sensors etc.",
+						"Integrated this with python backend to update the status of the devices, display the device status/data in realtime.",
+						"Refactored the repo to split the code into modules for better maintainability."
+					],
+					"technologies": [
+						{
+							"id": "c",
+							"name": "C"
+						}
+					]
+				}
+			]
+		}
+	]
 }
