@@ -1,17 +1,17 @@
 {
   "$schema": "https://recivi.pages.dev/schemas/recivi-resume.json",
   "bio": {
-    "name": "Dhruv Bhanushali",
-    "fullName": "Dhruv Bhanushali",
-    "summary": "Team lead, software engineer and open-source maintainer • Dubai, 🇦🇪 / Mumbai, 🇮🇳",
-    "labels": ["team lead", "software engineer", "open-source maintainer"],
-    "aliases": ["dhruvkb"],
+    "name": "Tanuj Nagpal",
+    "fullName": "Tanuj Nagpal",
+    "summary": "Frontend enthusiast, software engineer and clean code writer • Haryana, 🇮🇳",
+    "labels": ["Frontend enthusiast", "software engineer", "clean code writer"],
+    "aliases": ["tanuj"],
     "contact": {
-      "emails": ["hi@dhruvkb.dev"],
+      "emails": ["tanujnagpal999@gmail.com"],
       "phones": [
         {
-          "countryCode": 971,
-          "number": "525002046"
+          "countryCode": 91,
+          "number": "9034902763"
         }
       ]
     },
@@ -22,49 +22,25 @@
           "id": "whatsapp",
           "name": "WhatsApp"
         },
-        "url": "https://wa.me/+918171615670",
-        "username": "+91 8171615670"
+        "url": "https://wa.me/+919034902763",
+        "username": "+91 9034902763"
       },
       {
         "site": {
           "id": "github",
           "name": "GitHub"
         },
-        "url": "https://github.com/dhruvkb",
-        "username": "dhruvkb"
+        "url": "https://github.com/tanuj101",
+        "username": "tanuj101"
       },
       {
         "site": {
           "id": "linkedin",
           "name": "LinkedIn"
         },
-        "url": "https://www.linkedin.com/in/dhruvkb",
-        "username": "dhruvkb"
+        "url": "https://www.linkedin.com/in/tanuj101",
+        "username": "tanuj101"
       },
-      {
-        "site": {
-          "id": "bluesky",
-          "name": "Bluesky"
-        },
-        "url": "https://bsky.app/profile/dhruvkb.dev",
-        "username": "dhruvkb.dev"
-      },
-      {
-        "site": {
-          "id": "instagram",
-          "name": "Instagram"
-        },
-        "url": "https://www.instagram.com/dhruvkb_",
-        "username": "dhruvkb_"
-      },
-      {
-        "site": {
-          "id": "mastodon",
-          "name": "Mastodon"
-        },
-        "url": "https://mastodon.social/@dhruvkb",
-        "username": "dhruvkb"
-      }
     ],
     "skills": [
       {
