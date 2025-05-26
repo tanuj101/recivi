@@ -79,7 +79,6 @@
       },
       { "id": "go", "name": "Golang" },
       { "id": "php", "name": "PHP" },
-
       {
         "name": "Web",
         "subSkills": [
