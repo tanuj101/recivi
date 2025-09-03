@@ -26,7 +26,7 @@
 					"name": "WhatsApp"
 				},
 				"url": "https://wa.me/+919034902763",
-				"username": "+91 9034902763"
+				"username": "Whatsapp"
 			},
 			{
 				"site": {
@@ -43,14 +43,6 @@
 				},
 				"url": "https://www.linkedin.com/in/tanuj101",
 				"username": "tanuj101"
-			},
-			{
-				"site": {
-					"id": "bluesky",
-					"name": "Bluesky"
-				},
-				"url": "https://bsky.app/profile/tanujtn.bsky.social",
-				"username": "tanujtn"
 			}
 		],
 		"skills": [
@@ -235,17 +227,50 @@
 			"name": "Kwalee",
 			"shortName": "kwl",
 			"url": {
-				"dest": "https://www.kwalee.com/",
-				"label": "Kwalee Homepage"
+				"dest": "https://www.kwalee.com/about",
+				"label": "About Kwalee"
 			},
 			"address": {
 				"city": "Royal Leamington Spa",
 				"state": "England",
 				"countryCode": "GB"
 			},
-			"summary": "The company behind <a href=\"https://play.google.com/store/apps/details?id=com.kwalee.drawit\">Draw it</a>, <a href=\"https://play.google.com/store/apps/details?id=com.syubestgames.teachersimulator\">Teacher Simulator</a>, <a href=\"https://play.google.com/store/apps/details?id=com.sunsetgames.bordersecurity\">Airport Security</a>, <a href=\"https://play.google.com/store/apps/details?id=com.kwalee.bakeit/\">Bake it</a> and many more fun games.",
-			"description": "Kwalee is the company behind <a href=\"https://play.google.com/store/apps/details?id=com.kwalee.drawit\">Draw it</a>, <a href=\"https://play.google.com/store/apps/details?id=com.syubestgames.teachersimulator\">Teacher Simulator</a>, <a href=\"https://play.google.com/store/apps/details?id=com.sunsetgames.bordersecurity\">Airport Security</a>, <a href=\"https://play.google.com/store/apps/details?id=com.kwalee.bakeit/\">Bake it</a> and many more fun games. They believe in making the most fun games for the world.",
+			"summary": "The company behind <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=com.kwalee.drawit\">Draw it</a>, <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=com.syubestgames.teachersimulator\">Teacher Simulator</a>, <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=com.sunsetgames.bordersecurity\">Airport Security</a>, <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=com.kwalee.bakeit/\">Bake it</a> and many more fun games.",
+			"description": "Kwalee is the company behind <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=com.kwalee.drawit\">Draw it</a>, <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=com.syubestgames.teachersimulator\">Teacher Simulator</a>, <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=com.sunsetgames.bordersecurity\">Airport Security</a>, <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=com.kwalee.bakeit\">Bake it</a> and many more fun games. They believe in making the most fun games for the world.",
 			"roles": [
+				{
+					"id": "kwalee",
+					"name": "Frontend Developer II",
+					"highlights": [
+						"Migrated kwalee's main website from drupal to Next.js/Headless CMS tech stack.",
+						"Identified various performance bottlenecks and solutions to them.",
+						"Optimized Core Web Vitals for various pages across the website."
+
+					],
+					"period": {
+						"start": [2025, 3]
+					},
+					"type": "full-time",
+					"location": "remote",
+					"epicIds": ["kwalee.com"],
+					"tags": ["resume_pdf"]
+				},
+				{
+					"id": "x-promo",
+					"name": "Frontend Developer II",
+					"highlights": [
+						"Built Kwalee's web-based campaign manager to promote one game in another game through ad campaigns.",
+						"Implemented various deeply nested complex forms with dynamic fields and added validation using react-hook-form and Zod."
+					],
+
+					"period": {
+						"start": [2025, 5]
+					},
+					"type": "full-time",
+					"location": "remote",
+					"epicIds": ["x-promo"],
+					"tags": ["resume_pdf"]
+				},
 				{
 					"id": "fe-dev-almada",
 					"name": "Frontend Developer II",
@@ -389,6 +414,96 @@
 	],
 	"creations": [
 		{
+			"id": "kwalee.com",
+			"name": "kwalee.com",
+			"summary": "Kwalee's main website, contains Kwalee's whole journey and upcoming news in the universe of gaming.",
+			"description": "Kwalee's main website, migrated from Drupal based code to Next.js + Headless CMS(Strapi) for scalability.",
+			"projects": [
+				{
+					"id": "kwalee.com/next.js",
+					"name": "Frontend/Backend",
+					"url": "https://kwalee.com",
+					"role": "Contributor",
+					"summary": "Next.js based repo for the main website of kwalee.com.",
+					"highlights": ["Migrated old Drupal based website to modular blocks based CMS-driven code in Next.js", "Integrated various marketing forms across the website using form actions.", "Identified issues and optimized Core Web Vitals for the home page.", "Researched and implemented various cache strategies to reduce compute cost and faster load times."],
+					"technologies": [
+						{
+							"id": "typescript",
+							"name": "TypeScript"
+						},
+						{
+							"id": "nextdotjs",
+							"name": "Next.js"
+						},
+						{
+							"id": "tailwindcss",
+							"name": "Tailwind CSS"
+						},
+						{
+							"id": "awsamplify",
+							"name": "Amplify"
+						}
+					]
+				},
+				{
+					"id": "headless-cms",
+					"name": "Headless CMS",
+					"role": "Contributor",
+					"highlights": [
+						"Optimized the docker image to use multi-stage builds to reduce the image size by 40%.",
+						"Migrated the codebase to a (pnpm)monorepo to accommodate custom strapi plugins and to solve increasing build time.",
+						"All this resulted in 50% decrease in deployment times."
+					],
+					"technologies": [
+						{
+							"id": "typescript",
+							"name": "TypeScript"
+						},
+						{
+							"id": "strapi",
+							"name": "Strapi"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "x-promo",
+			"name": "CrossPromotion",
+			"summary": "CrossPromotion is a platform that helps the monetization team to setup cross-app ad campaigns.",
+			"description": "Kwalee's CrossPromotion is a platform that helps the monetization team to setup cross-app ad campaigns. This app was built using <a target='_blank' href='/resume/epics/kwalee-design-system'>KDS</a>.",
+			"projects": [
+				{
+					"id": "x-promo-app",
+					"name": "live.crosspromo.kwalee.com",
+					"url": "https://live.crosspromo.kwalee.com/",
+					"role": "Creator",
+					"technologies": [
+						{
+							"id": "typescript",
+							"name": "TypeScript"
+						},
+						{
+							"id": "react",
+							"name": "React"
+						},
+						{
+							"id": "redux",
+							"name": "Redux"
+						},
+						{
+							"id": "tailwindcss",
+							"name": "Tailwind CSS"
+						},
+						{
+							"id": "awsamplify",
+							"name": "Amplify"
+						}
+					]
+				}
+			]
+		},
+		{
 			"id": "almada",
 			"name": "Almada",
 			"summary": "An ad mediation platform for game studios and independent game developers.",
@@ -397,7 +512,7 @@
 				{
 					"id": "ad-mediation",
 					"name": "Ad Mediation Platform",
-					"role": "Maintainer",
+					"role": "Contributor",
 					"highlights": [
 						"Developed and delivered high fidelity UI revamp for the app from a MVP-stage UI, resulting in a new brand image for user acquisitions.",
 						"Integrated AWS Cognito for Google SSO with app-level RBAC for authorization.",
@@ -442,7 +557,7 @@
 					"name": "UI Design System",
 					"role": "Creator",
 					"highlights": [
-						"Laid the foundations with a monorepo(turborepo) consisting packages like react components, centralized tailwind-config, linter(biome) configs etc.",
+						"Laid the foundations with a monorepo(turborepo) consisting packages like react components based on Radix primitives, centralized tailwind-config, linter(biome) configs etc.",
 						"Integrated this system in two projects enhancing developer efficiency and reducing designer/developer workload by <b>60-70%</b>.",
 						"Wrote dev scripts to propagate local changes over all host apps from local dependencies using <a target='_blank' href='https://www.npmjs.com/package/chokidar'>chokidar</a> and <a target='_blank' href='https://www.npmjs.com/package/concurrently'>concurrently</a>."
 					],
@@ -477,7 +592,7 @@
 				{
 					"id": "ds-infra",
 					"name": "Infrastructure ",
-					"role": "Maintainer",
+					"role": "Contributor",
 					"highlights": [
 						"Implemented build scripts in Node.js for automatic react component generation for SVGs from hundreds of SVG files.",
 						"Established automated deployment and npm release using AWS Amplify and Bitbucket pipelines"
@@ -619,7 +734,7 @@
 				{
 					"id": "casual-admin",
 					"name": "Games Admin Dashboard",
-					"role": "Maintainer",
+					"role": "Contributor",
 					"description": "This was Kwalee's casual games dashboard, primarily used for <a target='_blank' href='https://play.google.com/store/apps/details?id=com.kwalee.dreambuildsolitaire'>Dream Build Solitaire</a> game.",
 					"highlights": [
 						"Developed a custom Calendar component to view game events' timelines for data-analysis.",
@@ -660,9 +775,9 @@
 			"description": "GroupNexus owned platform owned car park management platform supporting over 1,200 parking sites all over UK. It offers an end-to-end service, from technology that monitors and analyzes parking data, to setting the standard for the provision of management services. .",
 			"projects": [
 				{
-					"id": "Platform",
-					"name": "Platform",
-					"role": "Maintainer",
+					"id": "nexusplatform.co.uk",
+					"name": "nexusplatform.co.uk",
+					"role": "Contributor",
 					"highlights": [
 						"Integrated Stripe's BACS direct debit for ease of payments propelling revenue with good numbers, £500k+ and still climbing",
 						"Architected, planned and led end-to-end Azure AD SSO integration with google cloud platform.",
@@ -699,7 +814,7 @@
 				{
 					"id": "enforcement",
 					"name": "Enforcement Management",
-					"role": "Maintainer",
+					"role": "Lead Developer",
 					"highlights": [
 						"Implemented scalable multi-timezone support across the app for time critical modules to support new countries in client's portfolio.",
 						"Increased test coverage of various modules from ∼50% to 85% with Jest & RTL (React testing library) to further increase the system's robustness.",
@@ -746,12 +861,13 @@
 					"id": "Platform",
 					"name": "Platform",
 					"url": "https://pod.ai/",
-					"role": "Maintainer",
+					"role": "Contributor",
 					"highlights": [
 						"Worked with stake holders to revamp the app dashboard, post feed, forums, job opportunities, job offers page's UI/UX.",
 						"Prioritized, debugged and fixed bugs in the backlog and made the mobile app overall stable for usage.",
 						"Quickly ramped up on angularjs which was used in this project.",
-						"Worked on its react based web app as well to develop business supporting features"
+						"Worked on its react based web app as well to develop business supporting features",
+						"Migrated UI from AngularJS to React based code."
 					],
 					"technologies": [
 						{
@@ -816,7 +932,7 @@
 					"id": "GIS",
 					"name": "GIS",
 					"description": "Geographic information system is a backend service which stores the geographical locations of printer nodes and provides supporting co-ordinates and OSM APIs",
-					"role": "Maintainer",
+					"role": "Contributor",
 					"highlights": [
 						"Used messaging queues to asynchronously communicate with other services.",
 						"Refactored distance calculating algorithm and overall codebase to use REST standards with flask RESTful"
@@ -874,7 +990,7 @@
 					"id": "snoopy",
 					"name": "Snoopy",
 					"description": "Snoopy is a chat app where user could talk to each other, share documents and even initiate print workflows with the printing SDK.",
-					"role": "Maintainer",
+					"role": "Contributor",
 					"highlights": [
 						"Worked on optimizing the chat order with storing the timestamp when user actually clicked sent along with server timestamp",
 						"Integrated printing SDK to utilize printing infrastructure within the chat interface"
@@ -894,7 +1010,7 @@
 					"id": "auth-server",
 					"name": "Auth server",
 					"description": "This was IP's central auth server written in php which works as an identity provider, so that all the users could login with InstantPost credentials across all the apps.",
-					"role": "Maintainer",
+					"role": "Contributor",
 					"highlights": [
 						"Added functionality to blacklist JWT tokens on logouts, duplicate logins etc. for enhanced security.",
 						"Designed and implemented the login/registration pages for the frontend.",
@@ -916,7 +1032,7 @@
 					"name": "Commando",
 					"summary": "Software to manage IP's printers remotely in realtime.",
 					"description": "Software to manage IP's printers remotely in realtime.",
-					"role": "Maintainer",
+					"role": "Contributor",
 					"highlights": [
 						"Wrote embedded C code to control pay and print supporting devices like coin acceptors, currency note acceptors, temperature sensors etc.",
 						"Integrated this with python backend to update the status of the devices, display the device status/data in realtime.",
